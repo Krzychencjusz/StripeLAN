@@ -1,0 +1,1064 @@
+{
+    "meta":  {
+                 "code":  "en",
+                 "name":  "English"
+             },
+    "strings":  {
+                    "app.documentTitle":  "StripeLAN",
+                    "app.title":  "StripeLAN - magnetic card programmer",
+                    "app.subtitle":  "",
+                    "language.title":  "Language",
+                    "language.load":  "Load language",
+                    "language.loaded":  "Language loaded: {name}",
+                    "language.delete":  "Delete",
+                    "language.deleteConfirm":  "Delete language \"{code}\"?",
+                    "language.deleted":  "Language deleted",
+                    "language.deleteBuiltin":  "Built-in languages cannot be deleted",
+                    "connection.title":  "Connection",
+                    "connection.settings":  "Connection settings",
+                    "connection.refresh":  "Refresh ports",
+                    "connection.port":  "Communication port",
+                    "connection.choosePort":  "Select port…",
+                    "connection.notDetected":  "not currently detected",
+                    "connection.speed":  "Speed",
+                    "connection.dataBits":  "Data bits",
+                    "connection.parity":  "Parity",
+                    "connection.even":  "Even",
+                    "connection.odd":  "Odd",
+                    "connection.stopBits":  "Stop bits",
+                    "connection.encoding":  "Encoding",
+                    "connection.protocol":  "Protocol",
+                    "connection.demo":  "Demo mode — no device",
+                    "connection.connect":  "Save settings and connect",
+                    "connection.disconnect":  "Disconnect until restart",
+                    "connection.settingsSaved":  "Settings saved; connection ready",
+                    "connection.settingsWaiting":  "Settings saved; waiting for device",
+                    "connection.connected":  "Connected",
+                    "connection.disconnected":  "Disconnected",
+                    "connection.demoBadge":  "Demo",
+                    "admin.title":  "Administration panel",
+                    "admin.updateTitle":  "Update application from file",
+                    "admin.updateHint":  "Upload only a verified update package. Installation starts after checkbox confirmation.",
+                    "admin.install":  "Verify and install",
+                    "admin.confirm":  "Confirm",
+                    "admin.noUpdate":  "No update is pending",
+                    "admin.selectFile":  "Select a ZIP update package",
+                    "admin.started":  "Update started. The panel will restart.",
+                    "admin.queued":  "The update was verified and queued for installation.",
+                    "admin.installing":  "Installing the update…",
+                    "admin.success":  "Update completed. The application has restarted.",
+                    "admin.error":  "Update failed. The previous version was restored.",
+                    "admin.warning":  "Update completed with a warning.",
+                    "admin.layoutTitle":  "Panel layout",
+                    "admin.layoutHint":  "Load a JSON layout file without updating the whole system.",
+                    "admin.layoutChoose":  "Select a saved layout",
+                    "admin.layoutDelete":  "Delete",
+                    "admin.layoutDeleteConfirm":  "Delete the selected layout?",
+                    "admin.layoutDeleted":  "Layout deleted",
+                    "admin.layoutLoad":  "Load layout",
+                    "admin.layoutLoaded":  "Layout loaded",
+                    "admin.layoutError":  "Layout error",
+                    "admin.layoutSelect":  "Select a layout JSON file",
+                    "admin.powerTitle":  "Power",
+                    "admin.powerHint":  "Safely shut down or restart the operating system.",
+                    "admin.powerUnavailable":  "The power control service requires one-time system activation.",
+                    "admin.poweroffTitle":  "Shut down device",
+                    "admin.poweroffHint":  "Safely shuts down the operating system.",
+                    "admin.poweroffUnavailable":  "The shutdown service requires one-time system activation.",
+                    "admin.poweroff":  "Shut down device",
+                    "admin.poweroffConfirm":  "Are you sure you want to shut down the device? Any operation in progress will be interrupted.",
+                    "admin.poweroffProgress":  "Shutting down the device…",
+                    "admin.poweroffWait":  "The system has been shut down. You can disconnect power.",
+                    "admin.reboot":  "Reboot",
+                    "admin.rebootConfirm":  "Are you sure you want to restart the device? Any operation in progress will be interrupted.",
+                    "admin.rebootProgress":  "Restarting the device…",
+                    "admin.rebootWait":  "Wait for the device to restart and reconnect to the panel.",
+                    "common.command":  "Command",
+                    "common.format":  "Format",
+                    "common.ending":  "Line ending",
+                    "common.text":  "Text",
+                    "common.none":  "None",
+                    "common.save":  "Save",
+                    "common.saved":  "Saved",
+                    "common.delete":  "Delete",
+                    "common.reset":  "Reset",
+                    "common.more":  "More options",
+                    "commands.title":  "Commands",
+                    "commands.search":  "Search commands or descriptions…",
+                    "commands.allGroups":  "All groups",
+                    "commands.otherCategory":  "Other",
+                    "commands.addCommandEmpty":  "Enter a command",
+                    "commands.added":  "Command added",
+                    "commands.addToSequence":  "Add to sequence",
+                    "commands.deleteBuiltin":  "Built-in commands cannot be deleted",
+                    "commands.deleteCommand":  "Delete command",
+                    "commands.deleteConfirm":  "Delete command {command}?",
+                    "commands.deleted":  "Command deleted",
+                    "commands.ready":  "Ready-made procedures:",
+                    "commands.descriptionLabel":  "Description",
+                    "commands.descriptionPlaceholder":  "Command description",
+                    "commands.identify":  "Identification",
+                    "commands.readIso":  "ISO read in both directions",
+                    "commands.readRaw":  "RAW read in both directions",
+                    "commands.eraseRaw":  "Erase RAW T1–T3",
+                    "commands.buffers":  "Buffers 300–340",
+                    "manual.title":  "Send command",
+                    "manual.placeholder":  "Enter text or HEX bytes",
+                    "manual.send":  "Send",
+                    "manual.riskConfirm":  "I confirm that this card and device are intended for this operation and I understand the risk.",
+                    "manual.hint":  "The controller protocol requires a CR LF ending. In HEX mode, enter bytes in hexadecimal notation.",
+                    "log.title":  "Transmission log and statuses",
+                    "log.download":  "Download log",
+                    "log.downloadStarted":  "Log download started",
+                    "log.exportName":  "Transmission log",
+                    "log.copyClear":  "Copy and clear",
+                    "log.clear":  "Clear",
+                    "log.time":  "Time",
+                    "log.direction":  "Direction",
+                    "log.content":  "Content / bytes",
+                    "log.empty":  "No transmission",
+                    "log.isEmpty":  "The log is empty",
+                    "log.copiedCleared":  "Log copied and cleared",
+                    "log.copyFailed":  "{error}. The log was not deleted.",
+                    "log.bufferSummary":  "{bits}-bit buffer · ones: {ones} · zeros: {zeros}",
+                    "log.fullResponseLength":  "The complete response contains {length} characters + CR LF",
+                    "log.characters":  "{count} characters",
+                    "status.label":  "Status",
+                    "status.selectorTrack":  "track {selector}",
+                    "status.undocumented":  "Undocumented status",
+                    "events.connected":  "Connected: {target}",
+                    "events.disconnected":  "Disconnected",
+                    "events.receiveError":  "Receive error: {error}",
+                    "sequence.title":  "Send sequence",
+                    "sequence.addStep":  "+ Add step",
+                    "sequence.name":  "Procedure name",
+                    "sequence.guided":  "Guided mode — pause after every response and wait for a card observation",
+                    "sequence.start":  "Start sequence",
+                    "sequence.cancel":  "Cancel",
+                    "sequence.riskConfirm":  "Risk! Confirm.",
+                    "sequence.sent":  "Sent",
+                    "sequence.whatHappened":  "What happened to the card?",
+                    "sequence.observationPlaceholder":  "For example, the card moved inside and stopped…",
+                    "sequence.hint":  "Normally, the next command is sent after the controller response is identified. In guided mode, the application also waits for an operator note.",
+                    "sequence.operatorHint":  "Operator hint",
+                    "sequence.whatObserve":  "What should be observed?",
+                    "sequence.executeOne":  "Send",
+                    "sequence.executeOneTitle":  "Send only this command",
+                    "sequence.removeStep":  "Remove step",
+                    "sequence.enabled":  "Enabled",
+                    "sequence.moveUp":  "Move up",
+                    "sequence.moveDown":  "Move down",
+                    "sequence.reorder":  "Reorder step",
+                    "sequence.stepAdded":  "Step added",
+                    "sequence.savedPlaceholder":  "Saved procedures…",
+                    "sequence.savedCapturePlaceholder":  "Saved files…",
+                    "sequence.loadSaved":  "Load",
+                    "sequence.save":  "Save",
+                    "sequence.saveAs":  "Save as new",
+                    "sequence.delete":  "Delete",
+                    "sequence.clear":  "Clear",
+                    "sequence.saved":  "Sequence saved",
+                    "sequence.loaded":  "Sequence loaded",
+                    "sequence.deleted":  "Sequence deleted",
+                    "sequence.cleared":  "Sequence window cleared",
+                    "sequence.chooseSaved":  "Select a saved sequence",
+                    "sequence.deleteConfirm":  "Delete the selected saved sequence?",
+                    "sequence.chooseCapture":  "Select a saved card file",
+                    "sequence.singleSent":  "Single command sent: {command}",
+                    "sequence.defaultName":  "Card position test",
+                    "sequence.enterCommand":  "Enter a command on this line",
+                    "sequence.confirmRiskFirst":  "Select the risky-sequence confirmation and try again",
+                    "sequence.defaultInstruction1":  "Describe the card position after the command",
+                    "sequence.defaultInstruction2":  "Describe how the card reacted",
+                    "sequence.stepCounter":  "Step {current} of {total}",
+                    "sequence.stepLabel":  "Step {step}:",
+                    "sequence.observeCard":  "Observe the card movement and position.",
+                    "sequence.status.waitingBoth":  "Waiting for a complete identified device response and an observation",
+                    "sequence.status.observationSaved":  "Observation saved — waiting for a complete identified response",
+                    "sequence.status.waitingResponse":  "Waiting for a complete identified response",
+                    "sequence.status.waitingObservation":  "Response received and identified — waiting for an observation",
+                    "sequence.status.completed":  "Sequence completed",
+                    "sequence.status.cancelled":  "Cancelled",
+                    "sequence.status.error":  "Sequence error",
+                    "sequence.saveWait":  "Save observation — next step after the response",
+                    "sequence.saveFinish":  "Save observation and finish",
+                    "sequence.saveNext":  "Save observation and execute the next step",
+                    "presets.identify.name":  "Controller identification",
+                    "presets.readIso.name":  "ISO read — both directions",
+                    "presets.readRaw.name":  "RAW read — both directions",
+                    "presets.eraseRaw.name":  "Erase RAW on all tracks",
+                    "presets.buffers.name":  "Dump all buffers",
+                    "presets.operatorInstruction":  "Describe the response, movement and final card position.",
+                    "captures.title":  "Card files and comparison",
+                    "captures.refresh":  "Refresh",
+                    "captures.name":  "File / measurement name",
+                    "captures.namePlaceholder":  "For example, test card — read 1",
+                    "captures.unnamedCard":  "Unnamed card",
+                    "captures.mode":  "Data mode",
+                    "captures.notes":  "Notes",
+                    "captures.notesPlaceholder":  "Card state, settings, test purpose…",
+                    "captures.save":  "Save current log",
+                    "captures.import":  "Load file",
+                    "captures.useSequenceName":  "Use procedure name",
+                    "captures.hint":  "The JSON file contains responses, track data, statuses, HEX bytes and timestamps. It may contain sensitive data — keep it local.",
+                    "captures.compareTitle":  "Compare two reads",
+                    "captures.compare":  "Compare",
+                    "captures.itemSummary":  "Mode {mode} · T1 {t1} · T2 {t2} · T3 {t3} · buffers {buffers}",
+                    "captures.download":  "Download JSON",
+                    "captures.delete":  "Delete",
+                    "captures.savedFiles":  "Saved files…",
+                    "captures.deleteConfirm":  "Delete saved file \"{name}\"?",
+                    "captures.deleted":  "Saved file deleted",
+                    "captures.prepareCopy":  "Prepare copy",
+                    "captures.empty":  "No measurements have been saved yet",
+                    "captures.copyReady":  "Copy plan prepared — verify every step before running it",
+                    "captures.copyName":  "Copy: {name}",
+                    "captures.copyConfirmMode":  "Confirm the selected mode before writing.",
+                    "captures.copyConfirmAttempt":  "Confirm the default three-attempt setting.",
+                    "captures.copyObserveWrite":  "Observe the write and verification read on track {track}.",
+                    "captures.copyVerifyRead":  "Verification read of track {track}; describe the card position.",
+                    "captures.saved":  "Saved {name} in working storage",
+                    "captures.selectJson":  "Select a JSON file",
+                    "captures.imported":  "Loaded {name}",
+                    "captures.trackComparison":  "Track {track}: {result} (lengths {left}/{right})",
+                    "captures.bufferComparison":  "Buffer {command}: {result} (lengths {left}/{right})",
+                    "captures.identicalF":  "identical",
+                    "captures.identicalM":  "identical",
+                    "captures.differences":  "{count} differences",
+                    "commands.finalPosition":  "Final position",
+                    "commands.noMatches":  "No matching commands",
+                    "commands.knownFamily":  "Known command family.",
+                    "commands.unknown":  "Command outside the confirmed catalog — verify it before sending.",
+                    "risk.normal":  "standard/no movement",
+                    "risk.caution":  "use caution",
+                    "risk.blocking":  "may wait",
+                    "risk.destructive":  "writes to card",
+                    "risk.danger":  "dangerous",
+                    "risk.warning.caution":  "This command requires caution.",
+                    "risk.warning.blocking":  "This command may wait for a card or sensor change.",
+                    "risk.warning.destructive":  "This command may modify or erase card data.",
+                    "risk.warning.danger":  "Risky service command.",
+                    "errors.invalidLanguageFile":  "Invalid language file",
+                    "errors.languageLoad":  "Unable to load the language",
+                    "errors.languageImport":  "Language import error",
+                    "errors.update":  "Update error",
+                    "errors.captureImport":  "Import error",
+                    "errors.clipboard":  "The browser did not allow the log to be copied",
+                    "errors.http":  "HTTP error {status}",
+                    "errors.hexPairs":  "A HEX command must contain complete byte pairs",
+                    "errors.invalidHex":  "Invalid HEX command",
+                    "errors.commandMode":  "Invalid command mode",
+                    "errors.lineEnding":  "Invalid command line ending",
+                    "errors.connectFirst":  "Connect the device first",
+                    "errors.emptyCommand":  "The command cannot be empty",
+                    "errors.sequenceEmpty":  "The sequence must contain at least one step",
+                    "errors.sequenceStepCommand":  "Step {step} has no command",
+                    "errors.publicEditionRestricted":  "This option is not available in the public edition",
+                    "errors.sequenceNoEnabled":  "The sequence has no enabled commands",
+                    "errors.sequenceName":  "Enter a sequence name",
+                    "errors.sequenceRisk":  "The sequence contains a write, erase or blocking command.",
+                    "errors.sequenceActive":  "Wait for the active sequence to finish",
+                    "errors.observationRequired":  "Describe what happened to the card",
+                    "errors.selectPort":  "Select a serial port",
+                    "errors.encoding":  "Unsupported encoding",
+                    "errors.selectJson":  "Select a JSON file",
+                    "errors.selectLanguageJson":  "Select a language JSON file",
+                    "errors.languageStructure":  "Invalid language-file structure",
+                    "errors.languageNotFound":  "Language not found",
+                    "errors.languageCode":  "Invalid language code",
+                    "errors.captureId":  "Invalid saved-card identifier",
+                    "errors.captureJson":  "The file is not a valid StripeLAN JSON capture",
+                    "errors.captureMode":  "The file does not contain a supported card mode",
+                    "errors.captureTracks":  "Invalid tracks section",
+                    "errors.captureNoTracks":  "The capture contains no correctly read track data",
+                    "errors.selectUpdate":  "Select a ZIP update package",
+                    "errors.updateZip":  "The update package must be a ZIP file",
+                    "errors.updatePending":  "Another update is already waiting to be installed",
+                    "errors.poweroffConfirmation":  "Invalid shutdown confirmation",
+                    "errors.poweroffDuringUpdate":  "The device cannot be shut down while an update is in progress",
+                    "errors.poweroffUnavailable":  "The shutdown service is not active yet",
+                    "errors.rebootConfirmation":  "Invalid reboot confirmation",
+                    "errors.rebootDuringUpdate":  "Cannot reboot the device during an update",
+                    "errors.rebootUnavailable":  "Reboot service is not active yet",
+                    "common.close":  "Close",
+                    "admin.licenseShow":  "Show license terms",
+                    "admin.licenseGrantShow":  "License certificate",
+                    "admin.licenseGrantMissing":  "No license certificate",
+                    "admin.licenseHint":  "Show the general license terms for the installed software version.",
+                    "admin.licenseLoadError":  "Unable to load the license",
+                    "admin.licenseTitle":  "License terms",
+                    "commands.category":  "Category",
+                    "commands.customCategory":  "Other category",
+                    "commands.addCommand":  "+ Add command",
+                    "commands.addCommandTitle":  "Add command",
+                    "common.cancel":  "Cancel",
+                    "sequence.saveObservation":  "Save observation and continue",
+                    "captures.compareWith":  "with",
+                    "errors.commandRequired":  "Enter a command",
+                    "errors.languageKeepOne":  "At least one language must remain",
+                    "errors.commandBuiltinDelete":  "Built-in commands cannot be deleted",
+                    "errors.layoutNotFound":  "Layout not found",
+                    "errors.commandExists":  "Command is already in the catalog",
+                    "errors.commandTooLong":  "Command is too long",
+                    "errors.selectLayoutJson":  "Select a layout JSON file",
+                    "errors.commandAscii":  "Command may contain ASCII characters only",
+                    "errors.layoutKeepOne":  "At least one layout must remain",
+                    "errors.layoutCode":  "Invalid layout code"
+                },
+    "statuses":  {
+                     "00":  {
+                                "name":  "Success",
+                                "detail":  "The command completed without a firmware-detected error."
+                            },
+                     "01":  {
+                                "name":  "S4 event",
+                                "detail":  "S4 became active during command 500."
+                            },
+                     "03":  {
+                                "name":  "Parser timeout",
+                                "detail":  "A complete CR LF terminated frame was not received."
+                            },
+                     "04":  {
+                                "name":  "UART 8251 error",
+                                "detail":  "Parity, framing or receiver overrun error."
+                            },
+                     "05":  {
+                                "name":  "Syntax or parameter error",
+                                "detail":  "Unknown command, invalid parameter or prohibited configuration."
+                            },
+                     "07":  {
+                                "name":  "Invalid track",
+                                "detail":  "The track number or formatter variant is not supported."
+                            },
+                     "08":  {
+                                "name":  "No card / invalid sensor state",
+                                "detail":  "The card position does not meet the command conditions."
+                            },
+                     "09":  {
+                                "name":  "400D failure",
+                                "detail":  "The Shutter procedure did not receive confirmation."
+                            },
+                     "10":  {
+                                "name":  "Transport timeout",
+                                "detail":  "The expected sensor change did not occur."
+                            },
+                     "11":  {
+                                "name":  "XOR/LRC error",
+                                "detail":  "The checksum of the read record is invalid."
+                            },
+                     "12":  {
+                                "name":  "Write/verify error",
+                                "detail":  "The written data and verification read do not match."
+                            },
+                     "14":  {
+                                "name":  "Parity error",
+                                "detail":  "A track symbol has invalid parity."
+                            },
+                     "17":  {
+                                "name":  "Incomplete acquisition",
+                                "detail":  "A complete data stream was not acquired."
+                            },
+                     "18":  {
+                                "name":  "Invalid length or end",
+                                "detail":  "A valid end of record was not found."
+                            },
+                     "19":  {
+                                "name":  "No synchronization",
+                                "detail":  "The decoder did not find a synchronization pattern."
+                            },
+                     "20":  {
+                                "name":  "Invalid start / framing",
+                                "detail":  "A valid start of record was not found."
+                            },
+                     "65":  {
+                                "name":  "LCD timeout",
+                                "detail":  "The optional LCD controller did not change the required line."
+                            },
+                     "mmw.sensor.32":  {
+                                           "name":  "No card"
+                                       },
+                     "mmw.sensor.33":  {
+                                           "name":  "Card at entry position"
+                                       },
+                     "mmw.sensor.34":  {
+                                           "name":  "Card at front internal position"
+                                       },
+                     "mmw.sensor.35":  {
+                                           "name":  "Card at rear internal position"
+                                       },
+                     "mkw_c11.00":  {
+                                        "name":  "Success"
+                                    },
+                     "mkw_c11.01":  {
+                                        "name":  "Empty track"
+                                    },
+                     "mkw_c11.02":  {
+                                        "name":  "Parity error"
+                                    },
+                     "mkw_c11.03":  {
+                                        "name":  "Read error"
+                                    },
+                     "mkw_c11.04":  {
+                                        "name":  "No start character"
+                                    },
+                     "mkw_c11.05":  {
+                                        "name":  "No stop character"
+                                    },
+                     "mkw_c11.06":  {
+                                        "name":  "LRC error"
+                                    },
+                     "mkw_c11.07":  {
+                                        "name":  "Verify error"
+                                    },
+                     "mkw_c11.30":  {
+                                        "name":  "Invalid command"
+                                    },
+                     "mkw_c11.31":  {
+                                        "name":  "Card transport error"
+                                    },
+                     "mkw_c11.32":  {
+                                        "name":  "No card"
+                                    },
+                     "mkw_c11.33":  {
+                                        "name":  "Write is not ISO format"
+                                    },
+                     "mkw_c11.36":  {
+                                        "name":  "Invalid encoder"
+                                    },
+                     "mkw_c11.37":  {
+                                        "name":  "EEPROM error"
+                                    },
+                     "mkw_c11.38":  {
+                                        "name":  "HiCo unavailable"
+                                    },
+                     "mkw_c11.41":  {
+                                        "name":  "Shutter closed"
+                                    },
+                     "mkw_c11.42":  {
+                                        "name":  "Shutter open"
+                                    },
+                     "mkw_c11.44":  {
+                                        "name":  "PIN error"
+                                    },
+                     "mkw_c11.50":  {
+                                        "name":  "Position S0"
+                                    },
+                     "mkw_c11.51":  {
+                                        "name":  "Position S1"
+                                    },
+                     "mkw_c11.52":  {
+                                        "name":  "Position S2"
+                                    },
+                     "mkw_c11.53":  {
+                                        "name":  "Position S3"
+                                    },
+                     "mkw_c11.54":  {
+                                        "name":  "Position S4"
+                                    },
+                     "mkw_c11.55":  {
+                                        "name":  "Card in shutter"
+                                    },
+                     "mkw_c11.99":  {
+                                        "name":  "RDT OK"
+                                    },
+                     "mmw.00":  {
+                                    "name":  "Success"
+                                },
+                     "mmw.01":  {
+                                    "name":  "Empty track"
+                                },
+                     "mmw.02":  {
+                                    "name":  "Parity error"
+                                },
+                     "mmw.03":  {
+                                    "name":  "Read error"
+                                },
+                     "mmw.04":  {
+                                    "name":  "No start character"
+                                },
+                     "mmw.05":  {
+                                    "name":  "No stop character"
+                                },
+                     "mmw.06":  {
+                                    "name":  "LRC error"
+                                },
+                     "mmw.07":  {
+                                    "name":  "Verify error"
+                                },
+                     "mmw.30":  {
+                                    "name":  "Invalid command"
+                                },
+                     "mmw.31":  {
+                                    "name":  "Card transport error"
+                                },
+                     "mmw.32":  {
+                                    "name":  "No card"
+                                },
+                     "mmw.33":  {
+                                    "name":  "Write is not ISO format"
+                                },
+                     "mmw.36":  {
+                                    "name":  "Invalid encoder"
+                                },
+                     "mmw.37":  {
+                                    "name":  "EEPROM error"
+                                },
+                     "mmw.38":  {
+                                    "name":  "HiCo unavailable"
+                                },
+                     "mmw.41":  {
+                                    "name":  "Shutter closed"
+                                },
+                     "mmw.42":  {
+                                    "name":  "Shutter open"
+                                },
+                     "mmw.44":  {
+                                    "name":  "PIN error"
+                                },
+                     "mmw.50":  {
+                                    "name":  "Position S0"
+                                },
+                     "mmw.51":  {
+                                    "name":  "Position S1"
+                                },
+                     "mmw.52":  {
+                                    "name":  "Position S2"
+                                },
+                     "mmw.53":  {
+                                    "name":  "Position S3"
+                                },
+                     "mmw.54":  {
+                                    "name":  "Position S4"
+                                },
+                     "mmw.55":  {
+                                    "name":  "Card in shutter"
+                                },
+                     "mmw.99":  {
+                                    "name":  "RDT OK"
+                                }
+                 },
+    "catalog":  {
+                    "categories":  {
+                                       "Podstawowe":  "Basic",
+                                       "Konfiguracja":  "Configuration",
+                                       "Sensory":  "Sensors",
+                                       "Odczyt":  "Read",
+                                       "Zapis":  "Write",
+                                       "Transport":  "Transport",
+                                       "Bufory":  "Buffers",
+                                       "Porty":  "Ports",
+                                       "Serwisowe 81":  "Service 81",
+                                       "Identyfikacja":  "Identification",
+                                       "Wyjścia":  "Outputs",
+                                       "Read":  "Read",
+                                       "Configuration":  "Configuration",
+                                       "Write":  "Write",
+                                       "Buffers":  "Buffers",
+                                       "Basic":  "Basic",
+                                       "Outputs":  "Outputs",
+                                       "Identification":  "Identification"
+                                   },
+                    "entries":  {
+                                    "000":  {
+                                                "description":  "Communication/no-op test; no card movement."
+                                            },
+                                    "010":  {
+                                                "description":  "Software restart after returning the response."
+                                            },
+                                    "04tX":  {
+                                                 "description":  "Set the start marker for track t."
+                                             },
+                                    "05tX":  {
+                                                 "description":  "Set the end marker for track t."
+                                             },
+                                    "06td":  {
+                                                 "description":  "Set symbol width; the parameter is not safely validated."
+                                             },
+                                    "0701…0709":  {
+                                                      "description":  "Set the number of magnetic read attempts; 0703 is the default."
+                                                  },
+                                    "080I":  {
+                                                 "description":  "Standard ISO character mode."
+                                             },
+                                    "080S":  {
+                                                 "description":  "S mode: 8-bit, without final LRC verification."
+                                             },
+                                    "080B":  {
+                                                 "description":  "RAW mode: an 800-bit buffer represented as ASCII 0/1."
+                                             },
+                                    "080V":  {
+                                                 "description":  "V mode: T1/T3 as hexadecimal bytes; T2 remains 5-bit."
+                                             },
+                                    "120":  {
+                                                "description":  "Check card presence using the sensors; no movement."
+                                            },
+                                    "18t":  {
+                                                "description":  "Read track t during MFW movement.",
+                                                "final_position":  "S4 active"
+                                            },
+                                    "20t":  {
+                                                "description":  "Read MRV and run procedure 055B. Observed behavior: when a card remains held at the start position, the command waits for removal and fresh insertion.",
+                                                "final_position":  "inside end position; S4 inactive"
+                                            },
+                                    "22t":  {
+                                                "description":  "Read MFW and return using procedure 05D5.",
+                                                "final_position":  "S1 active; start position"
+                                            },
+                                    "24t":  {
+                                                "description":  "Read MFW and move until sensors S0-S4 are released.",
+                                                "final_position":  "S0-S4 inactive"
+                                            },
+                                    "26t":  {
+                                                "description":  "MRV positioning followed by a read equivalent to 24t.",
+                                                "final_position":  "S0-S4 inactive"
+                                            },
+                                    "28t":  {
+                                                "description":  "Read MRV and position at S2.",
+                                                "final_position":  "S2 active"
+                                            },
+                                    "52t":  {
+                                                "description":  "Wait for a card, read MRV and return to S1.",
+                                                "final_position":  "S1 active"
+                                            },
+                                    "19t\u003cdata\u003e":  {
+                                                                "description":  "Position, write MFW, verify MRV and return.",
+                                                                "final_position":  "S1 active"
+                                                            },
+                                    "21t\u003cdata\u003e":  {
+                                                                "description":  "Write MRV and verify MFW.",
+                                                                "final_position":  "S4 active"
+                                                            },
+                                    "23t\u003cdata\u003e":  {
+                                                                "description":  "Write MFW, verify MRV and return.",
+                                                                "final_position":  "S1 active"
+                                                            },
+                                    "25t\u003cdata\u003e":  {
+                                                                "description":  "Write MFW, verify MRV and release S0-S4.",
+                                                                "final_position":  "S0-S4 inactive"
+                                                            },
+                                    "27t\u003cdata\u003e":  {
+                                                                "description":  "Write MRV, verify MFW and release S0-S4.",
+                                                                "final_position":  "S0-S4 inactive"
+                                                            },
+                                    "53t\u003cdata\u003e":  {
+                                                                "description":  "Wait for a card, write MFW, verify MRV and return.",
+                                                                "final_position":  "S1 active"
+                                                            },
+                                    "150":  {
+                                                "description":  "MFW movement until S0-S4 are released.",
+                                                "final_position":  "S0-S4 inactive"
+                                            },
+                                    "160":  {
+                                                "description":  "Complete MFW sequence through the sensors.",
+                                                "final_position":  "S4 inactive"
+                                            },
+                                    "170":  {
+                                                "description":  "Conditional recovery/positioning based on sensor states."
+                                            },
+                                    "500":  {
+                                                "description":  "Requires S0-S2 to be clear and waits for S4 activation."
+                                            },
+                                    "700":  {
+                                                "description":  "Run procedure 055B when a card is present.",
+                                                "final_position":  "S4 inactive"
+                                            },
+                                    "710":  {
+                                                "description":  "Return using procedure 05D5 when a card is present.",
+                                                "final_position":  "S1 active"
+                                            },
+                                    "730":  {
+                                                "description":  "MRV positioning to S2 followed by a short overrun.",
+                                                "final_position":  "S2 active"
+                                            },
+                                    "300":  {
+                                                "description":  "Return 200 buffer positions starting at 8502."
+                                            },
+                                    "310":  {
+                                                "description":  "Return 200 buffer positions starting at 85CA."
+                                            },
+                                    "320":  {
+                                                "description":  "Return 200 buffer positions starting at 8692."
+                                            },
+                                    "330":  {
+                                                "description":  "Return 200 buffer positions starting at 875A."
+                                            },
+                                    "340":  {
+                                                "description":  "Return the last 800-position buffer; no new read or movement."
+                                            },
+                                    "400D":  {
+                                                 "description":  "Shutter procedure; missing confirmation returns status 09."
+                                             },
+                                    "400E":  {
+                                                 "description":  "Set internal flag 8861=FF."
+                                             },
+                                    "400M":  {
+                                                 "description":  "Set 8827=C0."
+                                             },
+                                    "400N":  {
+                                                 "description":  "Set 8827=80."
+                                             },
+                                    "41000…41099":  {
+                                                        "description":  "Disable or set the timer; its unit is unconfirmed."
+                                                    },
+                                    "620":  {
+                                                "description":  "Read port 80h as eight 0/1 characters."
+                                            },
+                                    "630xxxxxxxx":  {
+                                                        "description":  "Write eight bits to port 60h and pulse 40.7."
+                                                    },
+                                    "650\u003ctekst\u003e":  {
+                                                                 "description":  "Send text to the optional LCD controller."
+                                                             },
+                                    "680000":  {
+                                                   "description":  "Test variant 68; no state change."
+                                               },
+                                    "680001":  {
+                                                   "description":  "Clear output E01C."
+                                               },
+                                    "680030":  {
+                                                   "description":  "Read input E01D."
+                                               },
+                                    "680040xxxxxxxx":  {
+                                                           "description":  "Write eight bits to E01C."
+                                                       },
+                                    "810020":  {
+                                                   "description":  "Complex transport and recovery procedure."
+                                               },
+                                    "810022":  {
+                                                   "description":  "MFW through the sensors, pulse 40.7 and move to S4."
+                                               },
+                                    "810024":  {
+                                                   "description":  "Handshake/recovery 60.2/80.4; dangerous error path."
+                                               },
+                                    "810026":  {
+                                                   "description":  "Set port 60.2=1 and wait."
+                                               },
+                                    "810028":  {
+                                                   "description":  "Set 60.2 and perform a complete 05D5 return."
+                                               },
+                                    "810030":  {
+                                                   "description":  "Set 60.2 and conditionally release the MFW sensors."
+                                               },
+                                    "970":  {
+                                                "description":  "Version/self-test information."
+                                            },
+                                    "980":  {
+                                                "description":  "Optional LCD controller version."
+                                            },
+                                    "990":  {
+                                                "description":  "Main controller version."
+                                            },
+                                    "aa":  {
+                                               "description":  "Load a card, read ISO track 2 and eject it at the front.",
+                                               "final_position":  "card at front"
+                                           },
+                                    "ab":  {
+                                               "description":  "Load a card, read ISO track 2 and eject it at the rear.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "ea":  {
+                                               "description":  "Load a card, read the 200-bit RAW buffer from track 2 and eject it at the front.",
+                                               "final_position":  "card at front"
+                                           },
+                                    "eb":  {
+                                               "description":  "Load a card, read the 200-bit RAW buffer from track 2 and eject it at the rear.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "ec":  {
+                                               "description":  "Load a card, read the 200-bit RAW buffer from track 2 and keep it at the rear internal position.",
+                                               "final_position":  "rear internal position"
+                                           },
+                                    "ed":  {
+                                               "description":  "Move the card from the rear internal position to the front internal position without ejecting it.",
+                                               "final_position":  "front internal position"
+                                           },
+                                    "ee":  {
+                                               "description":  "Move the card from the rear internal position to the entry position; the card remains ready to be loaded again.",
+                                               "final_position":  "entry position"
+                                           },
+                                    "ef":  {
+                                               "description":  "From the rear internal position, return the card to the start of the mechanism and eject it at the rear; no movement occurs from the front internal position.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "eg":  {
+                                               "description":  "From the rear internal position, move the card to the front internal position, read the 200-bit RAW buffer from track 2 and return it to the rear internal position.",
+                                               "final_position":  "rear internal position"
+                                           },
+                                    "eh":  {
+                                               "description":  "From the front internal position, move the card to the rear internal position, read the 200-bit RAW buffer from track 2 and return it to the front internal position.",
+                                               "final_position":  "front internal position"
+                                           },
+                                    "ba\u003cdata\u003e":  {
+                                                               "description":  "Load a card, write an ISO track-2 record, verify it and eject it at the front.",
+                                                               "final_position":  "card at front"
+                                                           },
+                                    "bb\u003cdata\u003e":  {
+                                                               "description":  "Load a card, write an ISO track-2 record, verify it and eject it at the rear.",
+                                                               "final_position":  "card at rear"
+                                                           },
+                                    "bc\u003cdata\u003e":  {
+                                                               "description":  "From the entry position, write and verify an ISO track-2 record, then move the card to the front internal position.",
+                                                               "final_position":  "front internal position"
+                                                           },
+                                    "bd\u003cdata\u003e":  {
+                                                               "description":  "From the front internal position, write and verify an ISO track-2 record, then move the card to the entry position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "be\u003cdata\u003e":  {
+                                                               "description":  "From the front internal position, write and verify an ISO track-2 record, then move the card to the entry position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "bf\u003cdata\u003e":  {
+                                                               "description":  "From the front internal position, write and verify an ISO track-2 record, then eject the card from the reader.",
+                                                               "final_position":  "card outside reader"
+                                                           },
+                                    "bg\u003cdata\u003e":  {
+                                                               "description":  "From the front internal position, write and verify an ISO track-2 record, keeping the card at that position.",
+                                                               "final_position":  "front internal position"
+                                                           },
+                                    "bh\u003cdata\u003e":  {
+                                                               "description":  "From the entry position, write and verify an ISO track-2 record, keeping the card at that position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "fa\u003cbits\u003e":  {
+                                                               "description":  "Load a card, write the 200-bit RAW buffer to track 2, verify it and eject it at the front.",
+                                                               "final_position":  "card at front"
+                                                           },
+                                    "fb\u003cbits\u003e":  {
+                                                               "description":  "Load a card, write the 200-bit RAW buffer to track 2, verify it and eject it at the rear.",
+                                                               "final_position":  "card at rear"
+                                                           },
+                                    "fc\u003cbits\u003e":  {
+                                                               "description":  "From the entry position, write and verify the 200-bit RAW buffer on track 2, then move the card to the front internal position.",
+                                                               "final_position":  "front internal position"
+                                                           },
+                                    "fd\u003cbits\u003e":  {
+                                                               "description":  "From the front internal position, write and verify the 200-bit RAW buffer on track 2, then move the card to the entry position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "fe\u003cbits\u003e":  {
+                                                               "description":  "From the front internal position, write and verify the 200-bit RAW buffer on track 2, then move the card to the entry position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "ff\u003cbits\u003e":  {
+                                                               "description":  "From the front internal position, write and verify the 200-bit RAW buffer on track 2, then eject the card even after a verification error.",
+                                                               "final_position":  "card outside reader"
+                                                           },
+                                    "fg\u003cbits\u003e":  {
+                                                               "description":  "From the front internal position, write and verify the 200-bit RAW buffer on track 2, keeping the card at that position.",
+                                                               "final_position":  "front internal position"
+                                                           },
+                                    "fh\u003cbits\u003e":  {
+                                                               "description":  "From the entry position, write and verify the 200-bit RAW buffer on track 2, keeping the card at that position.",
+                                                               "final_position":  "entry position"
+                                                           },
+                                    "z":  {
+                                              "description":  "Read the reader identification."
+                                          },
+                                    "t":  {
+                                              "description":  "Read the reader configuration."
+                                          },
+                                    "x":  {
+                                              "description":  "Reset the reader."
+                                          },
+                                    "p":  {
+                                              "description":  "Read the card-position sensor state."
+                                          },
+                                    "jss":  {
+                                                "description":  "Select ISO format."
+                                            },
+                                    "jsn":  {
+                                                "description":  "Select SIPASS format."
+                                            },
+                                    "jhs":  {
+                                                "description":  "Select LoCo writing."
+                                            },
+                                    "jhn":  {
+                                                "description":  "Select HiCo writing."
+                                            },
+                                    "aca":  {
+                                                "description":  "Load a card, read track 1 and eject it at the front.",
+                                                "final_position":  "card at front"
+                                            },
+                                    "acb":  {
+                                                "description":  "Load a card, read track 2 and eject it at the front.",
+                                                "final_position":  "card at front"
+                                            },
+                                    "acd":  {
+                                                "description":  "Load a card, read track 3 and eject it at the front.",
+                                                "final_position":  "card at front"
+                                            },
+                                    "acg":  {
+                                                "description":  "Load a card, read all tracks and eject it at the front.",
+                                                "final_position":  "card at front"
+                                            },
+                                    "aka":  {
+                                                "description":  "Load a card, read track 1 and eject it at the rear.",
+                                                "final_position":  "card at rear"
+                                            },
+                                    "akb":  {
+                                                "description":  "Load a card, read track 2 and eject it at the rear.",
+                                                "final_position":  "card at rear"
+                                            },
+                                    "akd":  {
+                                                "description":  "Load a card, read track 3 and eject it at the rear.",
+                                                "final_position":  "card at rear"
+                                            },
+                                    "akg":  {
+                                                "description":  "Load a card, read all tracks and eject it at the rear.",
+                                                "final_position":  "card at rear"
+                                            },
+                                    "kaa":  {
+                                                "description":  "Return the read track-1 buffer."
+                                            },
+                                    "kab":  {
+                                                "description":  "Return the read track-2 buffer."
+                                            },
+                                    "kad":  {
+                                                "description":  "Return the read track-3 buffer."
+                                            },
+                                    "dc":  {
+                                               "description":  "Eject the card at the front.",
+                                               "final_position":  "card at front"
+                                           },
+                                    "dk":  {
+                                               "description":  "Eject the card at the rear.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "haa\u003cdata\u003e":  {
+                                                                "description":  "Load track-1 data into the write buffer."
+                                                            },
+                                    "hab\u003cdata\u003e":  {
+                                                                "description":  "Load track-2 data into the write buffer."
+                                                            },
+                                    "had\u003cdata\u003e":  {
+                                                                "description":  "Load track-3 data into the write buffer."
+                                                            },
+                                    "bca\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 1 and eject it at the front.",
+                                                                "final_position":  "card at front"
+                                                            },
+                                    "bcb\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 2 and eject it at the front.",
+                                                                "final_position":  "card at front"
+                                                            },
+                                    "bcd\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 3 and eject it at the front.",
+                                                                "final_position":  "card at front"
+                                                            },
+                                    "bka\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 1 and eject it at the rear.",
+                                                                "final_position":  "card at rear"
+                                                            },
+                                    "bkb\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 2 and eject it at the rear.",
+                                                                "final_position":  "card at rear"
+                                                            },
+                                    "bkd\u003cdata\u003e":  {
+                                                                "description":  "Load a card, write track 3 and eject it at the rear.",
+                                                                "final_position":  "card at rear"
+                                                            },
+                                    "bcg":  {
+                                                "description":  "Write all previously loaded buffers and eject the card at the front.",
+                                                "final_position":  "card at front"
+                                            },
+                                    "bkg":  {
+                                                "description":  "Write all previously loaded buffers and eject the card at the rear.",
+                                                "final_position":  "card at rear"
+                                            },
+                                    "y\u003cconfig\u003e":  {
+                                                                "description":  "Write the complete MMW configuration block. Read it with t first; sending y alone writes an empty block."
+                                                            },
+                                    "gan":  {
+                                                "description":  "Enable output a."
+                                            },
+                                    "gas":  {
+                                                "description":  "Disable output a."
+                                            },
+                                    "gbn":  {
+                                                "description":  "Enable output b."
+                                            },
+                                    "gbs":  {
+                                                "description":  "Disable output b."
+                                            },
+                                    "gcn":  {
+                                                "description":  "Enable output c."
+                                            },
+                                    "gcs":  {
+                                                "description":  "Disable output c."
+                                            },
+                                    "gdn":  {
+                                                "description":  "Enable output d."
+                                            },
+                                    "gds":  {
+                                                "description":  "Disable output d."
+                                            },
+                                    "gen":  {
+                                                "description":  "Enable output e."
+                                            },
+                                    "ges":  {
+                                                "description":  "Disable output e."
+                                            },
+                                    "gfn":  {
+                                                "description":  "Enable output f."
+                                            },
+                                    "gfs":  {
+                                                "description":  "Disable output f."
+                                            },
+                                    "ggn":  {
+                                                "description":  "Enable output g."
+                                            },
+                                    "ggs":  {
+                                                "description":  "Disable output g."
+                                            },
+                                    "ac":  {
+                                               "description":  "Load a card, read ISO track 2 and keep it at the rear internal position.",
+                                               "final_position":  "rear internal position"
+                                           },
+                                    "ad":  {
+                                               "description":  "Move the card from the rear internal position to the front internal position without ejecting it.",
+                                               "final_position":  "card inside"
+                                           },
+                                    "ae":  {
+                                               "description":  "Move the card from the rear internal position to the entry position, ready to be loaded again.",
+                                               "final_position":  "entry position"
+                                           },
+                                    "af":  {
+                                               "description":  "Return the card from the rear internal position and eject it at the rear.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "ag":  {
+                                               "description":  "Read ISO track 2 from the rear internal position and return the card there.",
+                                               "final_position":  "rear internal position"
+                                           },
+                                    "ah":  {
+                                               "description":  "Read ISO track 2 from the front internal position and return the card there.",
+                                               "final_position":  "front internal position"
+                                           },
+                                    "da":  {
+                                               "description":  "Eject the card at the front.",
+                                               "final_position":  "card at front"
+                                           },
+                                    "db":  {
+                                               "description":  "Eject the card at the rear.",
+                                               "final_position":  "card at rear"
+                                           },
+                                    "ja\u003cdata\u003e":  {
+                                                               "description":  "Load a card, write ISO track 2 without verification and eject it at the front.",
+                                                               "final_position":  "card at front"
+                                                           },
+                                    "jb\u003cdata\u003e":  {
+                                                               "description":  "Load a card, write ISO track 2 without verification and eject it at the rear.",
+                                                               "final_position":  "card at rear"
+                                                           },
+                                    "na\u003cbits\u003e":  {
+                                                               "description":  "Load a card, write the 200-bit RAW buffer to track 2 without verification and eject it at the front.",
+                                                               "final_position":  "card at front"
+                                                           },
+                                    "nb\u003cbits\u003e":  {
+                                                               "description":  "Load a card, write the 200-bit RAW buffer to track 2 without verification and eject it at the rear.",
+                                                               "final_position":  "card at rear"
+                                                           }
+                                }
+                }
+}

@@ -1,0 +1,1064 @@
+{
+    "meta":  {
+                 "code":  "pl",
+                 "name":  "Polski"
+             },
+    "strings":  {
+                    "app.documentTitle":  "StripeLAN",
+                    "app.title":  "StripeLAN - programator kart magnetycznych",
+                    "app.subtitle":  "",
+                    "language.title":  "Język",
+                    "language.load":  "Wczytaj język",
+                    "language.loaded":  "Wczytano język: {name}",
+                    "language.delete":  "Usuń",
+                    "language.deleteConfirm":  "Usunąć język „{code}”?",
+                    "language.deleted":  "Język usunięty",
+                    "language.deleteBuiltin":  "Wbudowanych języków nie można usunąć",
+                    "connection.title":  "Połączenie",
+                    "connection.settings":  "Ustawienia połączenia",
+                    "connection.refresh":  "Odśwież porty",
+                    "connection.port":  "Port komunikacyjny",
+                    "connection.choosePort":  "Wybierz port…",
+                    "connection.notDetected":  "obecnie niewykryty",
+                    "connection.speed":  "Prędkość",
+                    "connection.dataBits":  "Bity danych",
+                    "connection.parity":  "Parzystość",
+                    "connection.even":  "Parzysta",
+                    "connection.odd":  "Nieparzysta",
+                    "connection.stopBits":  "Bity stopu",
+                    "connection.encoding":  "Kodowanie",
+                    "connection.protocol":  "Protokół",
+                    "connection.demo":  "Tryb demonstracyjny — bez urządzenia",
+                    "connection.connect":  "Zapisz ustawienia i połącz",
+                    "connection.disconnect":  "Rozłącz do restartu",
+                    "connection.settingsSaved":  "Ustawienia zapisane; połączenie gotowe",
+                    "connection.settingsWaiting":  "Ustawienia zapisane; oczekiwanie na urządzenie",
+                    "connection.connected":  "Połączono",
+                    "connection.disconnected":  "Rozłączono",
+                    "connection.demoBadge":  "Demo",
+                    "admin.title":  "Panel administracyjny",
+                    "admin.updateTitle":  "Aktualizacja aplikacji z pliku",
+                    "admin.updateHint":  "Wgraj tylko zweryfikowaną paczkę aktualizacji. Instalacja rozpocznie się po potwierdzeniu checkboxem.",
+                    "admin.install":  "Sprawdź i zainstaluj",
+                    "admin.confirm":  "Potwierdzam instalację wybranej paczki i ponowne uruchomienie aplikacji.",
+                    "admin.noUpdate":  "Brak oczekującej aktualizacji",
+                    "admin.selectFile":  "Wybierz paczkę aktualizacji ZIP",
+                    "admin.started":  "Aktualizacja rozpoczęta. Panel uruchomi się ponownie.",
+                    "admin.queued":  "Aktualizacja została sprawdzona i przekazana do instalacji.",
+                    "admin.installing":  "Trwa instalacja aktualizacji…",
+                    "admin.success":  "Aktualizacja zakończona. Aplikacja została uruchomiona ponownie.",
+                    "admin.error":  "Aktualizacja nie powiodła się. Przywrócono poprzednią wersję.",
+                    "admin.warning":  "Aktualizacja zakończona z ostrzeżeniem.",
+                    "admin.layoutTitle":  "Układ panelu",
+                    "admin.layoutHint":  "Wczytaj plik układu JSON bez aktualizowania całego systemu.",
+                    "admin.layoutChoose":  "Wybierz zapisany układ",
+                    "admin.layoutDelete":  "Usuń",
+                    "admin.layoutDeleteConfirm":  "Usunąć wybrany układ?",
+                    "admin.layoutDeleted":  "Układ usunięty",
+                    "admin.layoutLoad":  "Wczytaj układ",
+                    "admin.layoutLoaded":  "Układ wczytany",
+                    "admin.layoutError":  "Błąd układu",
+                    "admin.layoutSelect":  "Wybierz plik układu JSON",
+                    "admin.powerTitle":  "Zasilanie",
+                    "admin.powerHint":  "Bezpiecznie wyłącza lub uruchamia ponownie system operacyjny.",
+                    "admin.powerUnavailable":  "Usługa sterowania zasilaniem wymaga jednorazowej aktywacji w systemie.",
+                    "admin.poweroffTitle":  "Wyłącz urządzenie",
+                    "admin.poweroffHint":  "Bezpiecznie wyłącza system operacyjny.",
+                    "admin.poweroffUnavailable":  "Usługa wyłączania nie jest jeszcze aktywna.",
+                    "admin.poweroff":  "Wyłącz urządzenie",
+                    "admin.poweroffConfirm":  "Na pewno wyłączyć urządzenie? Trwająca operacja zostanie przerwana.",
+                    "admin.poweroffProgress":  "Trwa wyłączanie urządzenia…",
+                    "admin.poweroffWait":  "System został wyłączony. Możesz odłączyć zasilanie.",
+                    "admin.reboot":  "Restart",
+                    "admin.rebootConfirm":  "Na pewno uruchomić urządzenie ponownie? Trwająca operacja zostanie przerwana.",
+                    "admin.rebootProgress":  "Trwa ponowne uruchamianie urządzenia…",
+                    "admin.rebootWait":  "Poczekaj na restart urządzenia i połącz się ponownie z panelem.",
+                    "common.command":  "Komenda",
+                    "common.format":  "Format",
+                    "common.ending":  "Zakończenie",
+                    "common.text":  "Tekst",
+                    "common.none":  "Brak",
+                    "common.save":  "Zapisz",
+                    "common.saved":  "Zapisano",
+                    "common.delete":  "Usuń",
+                    "common.reset":  "Reset",
+                    "common.more":  "Więcej opcji",
+                    "commands.title":  "Komendy",
+                    "commands.search":  "Szukaj komendy lub opisu…",
+                    "commands.allGroups":  "Wszystkie grupy",
+                    "commands.otherCategory":  "Inne",
+                    "commands.addCommandEmpty":  "Wprowadź komendę",
+                    "commands.added":  "Dodano komendę",
+                    "commands.addToSequence":  "Dodaj do sekwencji",
+                    "commands.deleteBuiltin":  "Wbudowanych komend nie można usunąć",
+                    "commands.deleteCommand":  "Usuń komendę",
+                    "commands.deleteConfirm":  "Usunąć komendę {command}?",
+                    "commands.deleted":  "Komenda usunięta",
+                    "commands.ready":  "Gotowe procedury:",
+                    "commands.descriptionLabel":  "Opis",
+                    "commands.descriptionPlaceholder":  "Opis komendy",
+                    "commands.identify":  "Identyfikacja",
+                    "commands.readIso":  "Odczyt ISO obu kierunków",
+                    "commands.readRaw":  "Odczyt RAW obu kierunków",
+                    "commands.eraseRaw":  "Kasowanie RAW T1–T3",
+                    "commands.buffers":  "Bufory 300–340",
+                    "manual.title":  "Wyślij komendę",
+                    "manual.placeholder":  "Wpisz tekst lub bajty HEX",
+                    "manual.send":  "Wyślij",
+                    "manual.riskConfirm":  "Potwierdzam, że ta karta i to urządzenie są przeznaczone do tej operacji i rozumiem ryzyko.",
+                    "manual.hint":  "Protokół kontrolera wymaga zakończenia CR LF. W trybie HEX wpisuj bajty w zapisie szesnastkowym.",
+                    "log.title":  "Dziennik transmisji i statusy",
+                    "log.download":  "Pobierz log",
+                    "log.downloadStarted":  "Rozpoczęto pobieranie logu",
+                    "log.exportName":  "Dziennik transmisji",
+                    "log.copyClear":  "Kopiuj i wyczyść",
+                    "log.clear":  "Wyczyść",
+                    "log.time":  "Czas",
+                    "log.direction":  "Kierunek",
+                    "log.content":  "Treść / bajty",
+                    "log.empty":  "Brak transmisji",
+                    "log.isEmpty":  "Dziennik jest pusty",
+                    "log.copiedCleared":  "Dziennik skopiowany i wyczyszczony",
+                    "log.copyFailed":  "{error}. Dziennik nie został usunięty.",
+                    "log.bufferSummary":  "Bufor {bits}-bitowy · jedynki: {ones} · zera: {zeros}",
+                    "log.fullResponseLength":  "Pełna odpowiedź zawiera {length} znaków + CR LF",
+                    "log.characters":  "{count} znaków",
+                    "status.label":  "Status",
+                    "status.selectorTrack":  "ścieżka {selector}",
+                    "status.undocumented":  "Nieudokumentowany status",
+                    "events.connected":  "Połączono: {target}",
+                    "events.disconnected":  "Rozłączono",
+                    "events.receiveError":  "Błąd odbioru: {error}",
+                    "sequence.title":  "Wyślij sekwencję",
+                    "sequence.addStep":  "+ Dodaj krok",
+                    "sequence.name":  "Nazwa procedury",
+                    "sequence.guided":  "Tryb krokowy — zatrzymaj po każdej odpowiedzi i czekaj na opis zachowania karty",
+                    "sequence.start":  "Uruchom sekwencję",
+                    "sequence.cancel":  "Anuluj",
+                    "sequence.riskConfirm":  "Ryzyko! Potwierdź.",
+                    "sequence.sent":  "Wysłano",
+                    "sequence.whatHappened":  "Co stało się z kartą?",
+                    "sequence.observationPlaceholder":  "Na przykład: karta wjechała do środka i zatrzymała się…",
+                    "sequence.hint":  "Standardowo następna komenda jest wysyłana po rozpoznaniu odpowiedzi kontrolera. W trybie krokowym aplikacja dodatkowo czeka na notatkę operatora.",
+                    "sequence.operatorHint":  "Wskazówka dla operatora",
+                    "sequence.whatObserve":  "Co należy obserwować?",
+                    "sequence.executeOne":  "Wyślij",
+                    "sequence.executeOneTitle":  "Wyślij tylko tę komendę",
+                    "sequence.removeStep":  "Usuń krok",
+                    "sequence.enabled":  "Aktywna",
+                    "sequence.moveUp":  "Przesuń w górę",
+                    "sequence.moveDown":  "Przesuń w dół",
+                    "sequence.reorder":  "Zmień kolejność kroku",
+                    "sequence.stepAdded":  "Dodano krok",
+                    "sequence.savedPlaceholder":  "Zapisane procedury…",
+                    "sequence.savedCapturePlaceholder":  "Zapisane pliki…",
+                    "sequence.loadSaved":  "Wczytaj",
+                    "sequence.save":  "Zapisz",
+                    "sequence.saveAs":  "Zapisz jako nową",
+                    "sequence.delete":  "Usuń",
+                    "sequence.clear":  "Wyczyść",
+                    "sequence.saved":  "Sekwencja zapisana",
+                    "sequence.loaded":  "Sekwencja wczytana",
+                    "sequence.deleted":  "Sekwencja usunięta",
+                    "sequence.cleared":  "Okno sekwencji wyczyszczone",
+                    "sequence.chooseSaved":  "Wybierz zapisaną sekwencję",
+                    "sequence.deleteConfirm":  "Usunąć wybraną zapisaną sekwencję?",
+                    "sequence.chooseCapture":  "Wybierz zapisany plik karty",
+                    "sequence.singleSent":  "Wysłano pojedynczą komendę: {command}",
+                    "sequence.defaultName":  "Test położenia karty",
+                    "sequence.enterCommand":  "Wpisz komendę w tym wierszu",
+                    "sequence.confirmRiskFirst":  "Zaznacz potwierdzenie ryzykownej sekwencji i spróbuj ponownie",
+                    "sequence.defaultInstruction1":  "Opisz położenie karty po komendzie",
+                    "sequence.defaultInstruction2":  "Opisz reakcję karty",
+                    "sequence.stepCounter":  "Krok {current} z {total}",
+                    "sequence.stepLabel":  "Krok {step}:",
+                    "sequence.observeCard":  "Obserwuj ruch i położenie karty.",
+                    "sequence.status.waitingBoth":  "Oczekiwanie na pełną rozpoznaną odpowiedź urządzenia i obserwację",
+                    "sequence.status.observationSaved":  "Obserwacja zapisana — oczekiwanie na pełną rozpoznaną odpowiedź",
+                    "sequence.status.waitingResponse":  "Oczekiwanie na pełną rozpoznaną odpowiedź",
+                    "sequence.status.waitingObservation":  "Odpowiedź odebrana i rozpoznana — oczekiwanie na obserwację",
+                    "sequence.status.completed":  "Sekwencja zakończona",
+                    "sequence.status.cancelled":  "Anulowano",
+                    "sequence.status.error":  "Błąd sekwencji",
+                    "sequence.saveWait":  "Zapisz obserwację — następny krok po odpowiedzi",
+                    "sequence.saveFinish":  "Zapisz obserwację i zakończ",
+                    "sequence.saveNext":  "Zapisz obserwację i wykonaj następny krok",
+                    "presets.identify.name":  "Identyfikacja kontrolera",
+                    "presets.readIso.name":  "Odczyt ISO — oba kierunki",
+                    "presets.readRaw.name":  "Odczyt RAW — oba kierunki",
+                    "presets.eraseRaw.name":  "Kasowanie RAW na wszystkich ścieżkach",
+                    "presets.buffers.name":  "Zrzut wszystkich buforów",
+                    "presets.operatorInstruction":  "Opisz odpowiedź, ruch i końcowe położenie karty.",
+                    "captures.title":  "Pliki kart i porównanie",
+                    "captures.refresh":  "Odśwież",
+                    "captures.name":  "Nazwa pliku / pomiaru",
+                    "captures.namePlaceholder":  "Na przykład: karta testowa — odczyt 1",
+                    "captures.unnamedCard":  "Karta bez nazwy",
+                    "captures.mode":  "Tryb danych",
+                    "captures.notes":  "Notatka",
+                    "captures.notesPlaceholder":  "Stan karty, ustawienia, cel testu…",
+                    "captures.save":  "Zapisz bieżący dziennik",
+                    "captures.import":  "Wczytaj plik",
+                    "captures.useSequenceName":  "Użyj nazwy procedury",
+                    "captures.hint":  "Plik JSON zawiera odpowiedzi, dane ścieżek, statusy, bajty HEX i znaczniki czasu. Może zawierać dane wrażliwe — przechowuj go lokalnie.",
+                    "captures.compareTitle":  "Porównaj dwa odczyty",
+                    "captures.compare":  "Porównaj",
+                    "captures.itemSummary":  "Tryb {mode} · T1 {t1} · T2 {t2} · T3 {t3} · bufory {buffers}",
+                    "captures.download":  "Pobierz JSON",
+                    "captures.delete":  "Usuń",
+                    "captures.savedFiles":  "Zapisane pliki…",
+                    "captures.deleteConfirm":  "Usunąć zapisany plik \"{name}\"?",
+                    "captures.deleted":  "Zapisany plik usunięty",
+                    "captures.prepareCopy":  "Przygotuj kopię",
+                    "captures.empty":  "Nie zapisano jeszcze żadnych pomiarów",
+                    "captures.copyReady":  "Plan kopiowania przygotowany — zweryfikuj każdy krok przed uruchomieniem",
+                    "captures.copyName":  "Kopia: {name}",
+                    "captures.copyConfirmMode":  "Potwierdź wybrany tryb przed zapisem.",
+                    "captures.copyConfirmAttempt":  "Potwierdź domyślne ustawienie trzech prób.",
+                    "captures.copyObserveWrite":  "Obserwuj zapis i odczyt weryfikacyjny ścieżki {track}.",
+                    "captures.copyVerifyRead":  "Odczyt weryfikacyjny ścieżki {track}; opisz położenie karty.",
+                    "captures.saved":  "Zapisano {name} w pamięci roboczej",
+                    "captures.selectJson":  "Wybierz plik JSON",
+                    "captures.imported":  "Wczytano {name}",
+                    "captures.trackComparison":  "Ścieżka {track}: {result} (długości {left}/{right})",
+                    "captures.bufferComparison":  "Bufor {command}: {result} (długości {left}/{right})",
+                    "captures.identicalF":  "identyczna",
+                    "captures.identicalM":  "identyczny",
+                    "captures.differences":  "{count} różnic",
+                    "commands.finalPosition":  "Pozycja końcowa",
+                    "commands.noMatches":  "Brak pasujących komend",
+                    "commands.knownFamily":  "Znana rodzina komend.",
+                    "commands.unknown":  "Komenda spoza potwierdzonego katalogu — sprawdź ją przed wysłaniem.",
+                    "risk.normal":  "standardowa / bez ruchu",
+                    "risk.caution":  "ostrożnie",
+                    "risk.blocking":  "może czekać",
+                    "risk.destructive":  "zapisuje na karcie",
+                    "risk.danger":  "niebezpieczna",
+                    "risk.warning.caution":  "Ta komenda wymaga ostrożności.",
+                    "risk.warning.blocking":  "Ta komenda może czekać na kartę lub zmianę stanu czujnika.",
+                    "risk.warning.destructive":  "Ta komenda może zmodyfikować lub skasować dane karty.",
+                    "risk.warning.danger":  "Ryzykowna komenda serwisowa.",
+                    "errors.invalidLanguageFile":  "Nieprawidłowy plik językowy",
+                    "errors.languageLoad":  "Nie udało się wczytać języka",
+                    "errors.languageImport":  "Błąd importu języka",
+                    "errors.update":  "Błąd aktualizacji",
+                    "errors.captureImport":  "Błąd importu",
+                    "errors.clipboard":  "Przeglądarka nie pozwoliła skopiować dziennika",
+                    "errors.http":  "Błąd HTTP {status}",
+                    "errors.hexPairs":  "Komenda HEX musi zawierać pełne pary bajtów",
+                    "errors.invalidHex":  "Nieprawidłowa komenda HEX",
+                    "errors.commandMode":  "Nieprawidłowy tryb komendy",
+                    "errors.lineEnding":  "Nieprawidłowe zakończenie linii komendy",
+                    "errors.connectFirst":  "Najpierw połącz urządzenie",
+                    "errors.emptyCommand":  "Komenda nie może być pusta",
+                    "errors.sequenceEmpty":  "Sekwencja musi zawierać co najmniej jeden krok",
+                    "errors.sequenceStepCommand":  "Krok {step} nie ma komendy",
+                    "errors.publicEditionRestricted":  "Ta operacja nie jest dostępna w wersji publicznej.",
+                    "errors.sequenceNoEnabled":  "Sekwencja nie ma aktywnych komend",
+                    "errors.sequenceName":  "Wpisz nazwę sekwencji",
+                    "errors.sequenceRisk":  "Sekwencja zawiera komendę zapisu, kasowania lub blokującą.",
+                    "errors.sequenceActive":  "Poczekaj na zakończenie aktywnej sekwencji",
+                    "errors.observationRequired":  "Opisz, co stało się z kartą",
+                    "errors.selectPort":  "Wybierz port szeregowy",
+                    "errors.encoding":  "Nieobsługiwane kodowanie",
+                    "errors.selectJson":  "Wybierz plik JSON",
+                    "errors.selectLanguageJson":  "Wybierz plik językowy JSON",
+                    "errors.languageStructure":  "Nieprawidłowa struktura pliku językowego",
+                    "errors.languageNotFound":  "Nie znaleziono języka",
+                    "errors.languageCode":  "Nieprawidłowy kod języka",
+                    "errors.captureId":  "Nieprawidłowy identyfikator zapisanego pliku karty",
+                    "errors.captureJson":  "Plik nie jest prawidłowym zrzutem JSON StripeLAN",
+                    "errors.captureMode":  "Plik nie zawiera obsługiwanego trybu karty",
+                    "errors.captureTracks":  "Nieprawidłowa sekcja ścieżek",
+                    "errors.captureNoTracks":  "Zrzut nie zawiera poprawnie odczytanych danych ścieżek",
+                    "errors.selectUpdate":  "Wybierz paczkę aktualizacji ZIP",
+                    "errors.updateZip":  "Paczka aktualizacyjna musi być plikiem ZIP",
+                    "errors.updatePending":  "Inna aktualizacja już oczekuje na instalację",
+                    "errors.poweroffConfirmation":  "Nieprawidłowe potwierdzenie wyłączenia",
+                    "errors.poweroffDuringUpdate":  "Nie można wyłączyć urządzenia podczas trwającej aktualizacji",
+                    "errors.poweroffUnavailable":  "Usługa wyłączania nie jest jeszcze aktywna",
+                    "errors.rebootConfirmation":  "Nieprawidłowe potwierdzenie restartu",
+                    "errors.rebootDuringUpdate":  "Nie można zrestartować urządzenia podczas aktualizacji",
+                    "errors.rebootUnavailable":  "Usługa restartu nie jest jeszcze aktywna",
+                    "common.close":  "Zamknij",
+                    "admin.licenseShow":  "Pokaż warunki licencji",
+                    "admin.licenseGrantShow":  "Certyfikat licencji",
+                    "admin.licenseGrantMissing":  "Brak certyfikatu licencji",
+                    "admin.licenseHint":  "Pokaż ogólne warunki licencji zainstalowanej wersji oprogramowania.",
+                    "admin.licenseLoadError":  "Nie udało się wczytać licencji",
+                    "admin.licenseTitle":  "Warunki licencji",
+                    "commands.category":  "Kategoria",
+                    "commands.customCategory":  "Inna kategoria",
+                    "commands.addCommand":  "+ Dodaj komendę",
+                    "commands.addCommandTitle":  "Dodaj komendę",
+                    "common.cancel":  "Anuluj",
+                    "sequence.saveObservation":  "Zapisz obserwację i kontynuuj",
+                    "captures.compareWith":  "z",
+                    "errors.commandRequired":  "Wpisz komendę",
+                    "errors.languageKeepOne":  "Musi pozostać co najmniej jeden język",
+                    "errors.commandBuiltinDelete":  "Nie można usunąć komendy wbudowanej",
+                    "errors.layoutNotFound":  "Nie znaleziono układu",
+                    "errors.commandExists":  "Komenda jest już w katalogu",
+                    "errors.commandTooLong":  "Komenda jest za długa",
+                    "errors.selectLayoutJson":  "Wybierz plik JSON układu",
+                    "errors.commandAscii":  "Komenda może zawierać tylko znaki ASCII",
+                    "errors.layoutKeepOne":  "Musi pozostać co najmniej jeden układ",
+                    "errors.layoutCode":  "Nieprawidłowy kod układu"
+                },
+    "statuses":  {
+                     "00":  {
+                                "name":  "Sukces",
+                                "detail":  "Komenda zakończyła się bez błędu wykrytego przez firmware."
+                            },
+                     "01":  {
+                                "name":  "Zdarzenie S4",
+                                "detail":  "S4 uaktywniło się podczas komendy 500."
+                            },
+                     "03":  {
+                                "name":  "Timeout parsera",
+                                "detail":  "Nie odebrano pełnej ramki zakończonej CR LF."
+                            },
+                     "04":  {
+                                "name":  "Błąd UART 8251",
+                                "detail":  "Błąd parzystości, ramki lub przepełnienia odbiornika."
+                            },
+                     "05":  {
+                                "name":  "Błąd składni lub parametrów",
+                                "detail":  "Nieznana komenda, nieprawidłowy parametr lub zabroniona konfiguracja."
+                            },
+                     "07":  {
+                                "name":  "Nieprawidłowa ścieżka",
+                                "detail":  "Numer ścieżki lub wariant formatera nie jest obsługiwany."
+                            },
+                     "08":  {
+                                "name":  "Brak karty / zły stan czujników",
+                                "detail":  "Położenie karty nie spełnia warunków komendy."
+                            },
+                     "09":  {
+                                "name":  "Błąd 400D",
+                                "detail":  "Procedura Shutter nie otrzymała potwierdzenia."
+                            },
+                     "10":  {
+                                "name":  "Timeout transportu",
+                                "detail":  "Nie wystąpiła oczekiwana zmiana stanu czujnika."
+                            },
+                     "11":  {
+                                "name":  "Błąd XOR/LRC",
+                                "detail":  "Suma kontrolna odczytanego rekordu jest nieprawidłowa."
+                            },
+                     "12":  {
+                                "name":  "Błąd zapisu / weryfikacji",
+                                "detail":  "Zapisane dane i odczyt weryfikacyjny nie są zgodne."
+                            },
+                     "14":  {
+                                "name":  "Błąd parzystości",
+                                "detail":  "Symbol ścieżki ma nieprawidłową parzystość."
+                            },
+                     "17":  {
+                                "name":  "Niepełne pozyskanie",
+                                "detail":  "Nie pozyskano kompletnego strumienia danych."
+                            },
+                     "18":  {
+                                "name":  "Nieprawidłowa długość lub koniec",
+                                "detail":  "Nie znaleziono prawidłowego końca rekordu."
+                            },
+                     "19":  {
+                                "name":  "Brak synchronizacji",
+                                "detail":  "Dekoder nie znalazł wzorca synchronizacji."
+                            },
+                     "20":  {
+                                "name":  "Nieprawidłowy start / ramka",
+                                "detail":  "Nie znaleziono prawidłowego początku rekordu."
+                            },
+                     "65":  {
+                                "name":  "Timeout LCD",
+                                "detail":  "Opcjonalny kontroler LCD nie zmienił wymaganej linii."
+                            },
+                     "mmw.sensor.32":  {
+                                           "name":  "Brak karty"
+                                       },
+                     "mmw.sensor.33":  {
+                                           "name":  "Karta na pozycji wejściowej"
+                                       },
+                     "mmw.sensor.34":  {
+                                           "name":  "Karta na przedniej pozycji wewnętrznej"
+                                       },
+                     "mmw.sensor.35":  {
+                                           "name":  "Karta na tylnej pozycji wewnętrznej"
+                                       },
+                     "mkw_c11.00":  {
+                                        "name":  "Sukces"
+                                    },
+                     "mkw_c11.01":  {
+                                        "name":  "Pusta ścieżka"
+                                    },
+                     "mkw_c11.02":  {
+                                        "name":  "Błąd parzystości"
+                                    },
+                     "mkw_c11.03":  {
+                                        "name":  "Błąd odczytu"
+                                    },
+                     "mkw_c11.04":  {
+                                        "name":  "Brak znaku startu"
+                                    },
+                     "mkw_c11.05":  {
+                                        "name":  "Brak znaku stopu"
+                                    },
+                     "mkw_c11.06":  {
+                                        "name":  "Błąd LRC"
+                                    },
+                     "mkw_c11.07":  {
+                                        "name":  "Błąd weryfikacji"
+                                    },
+                     "mkw_c11.30":  {
+                                        "name":  "Nieprawidłowa komenda"
+                                    },
+                     "mkw_c11.31":  {
+                                        "name":  "Błąd transportu karty"
+                                    },
+                     "mkw_c11.32":  {
+                                        "name":  "Brak karty"
+                                    },
+                     "mkw_c11.33":  {
+                                        "name":  "Zapis poza formatem ISO"
+                                    },
+                     "mkw_c11.36":  {
+                                        "name":  "Nieprawidłowy enkoder"
+                                    },
+                     "mkw_c11.37":  {
+                                        "name":  "Błąd EEPROM"
+                                    },
+                     "mkw_c11.38":  {
+                                        "name":  "HiCo niedostępne"
+                                    },
+                     "mkw_c11.41":  {
+                                        "name":  "Shutter zamknięty"
+                                    },
+                     "mkw_c11.42":  {
+                                        "name":  "Shutter otwarty"
+                                    },
+                     "mkw_c11.44":  {
+                                        "name":  "Błąd PIN"
+                                    },
+                     "mkw_c11.50":  {
+                                        "name":  "Pozycja S0"
+                                    },
+                     "mkw_c11.51":  {
+                                        "name":  "Pozycja S1"
+                                    },
+                     "mkw_c11.52":  {
+                                        "name":  "Pozycja S2"
+                                    },
+                     "mkw_c11.53":  {
+                                        "name":  "Pozycja S3"
+                                    },
+                     "mkw_c11.54":  {
+                                        "name":  "Pozycja S4"
+                                    },
+                     "mkw_c11.55":  {
+                                        "name":  "Karta w shutterze"
+                                    },
+                     "mkw_c11.99":  {
+                                        "name":  "RDT OK"
+                                    },
+                     "mmw.00":  {
+                                    "name":  "Sukces"
+                                },
+                     "mmw.01":  {
+                                    "name":  "Pusta ścieżka"
+                                },
+                     "mmw.02":  {
+                                    "name":  "Błąd parzystości"
+                                },
+                     "mmw.03":  {
+                                    "name":  "Błąd odczytu"
+                                },
+                     "mmw.04":  {
+                                    "name":  "Brak znaku startu"
+                                },
+                     "mmw.05":  {
+                                    "name":  "Brak znaku stopu"
+                                },
+                     "mmw.06":  {
+                                    "name":  "Błąd LRC"
+                                },
+                     "mmw.07":  {
+                                    "name":  "Błąd weryfikacji"
+                                },
+                     "mmw.30":  {
+                                    "name":  "Nieprawidłowa komenda"
+                                },
+                     "mmw.31":  {
+                                    "name":  "Błąd transportu karty"
+                                },
+                     "mmw.32":  {
+                                    "name":  "Brak karty"
+                                },
+                     "mmw.33":  {
+                                    "name":  "Zapis poza formatem ISO"
+                                },
+                     "mmw.36":  {
+                                    "name":  "Nieprawidłowy enkoder"
+                                },
+                     "mmw.37":  {
+                                    "name":  "Błąd EEPROM"
+                                },
+                     "mmw.38":  {
+                                    "name":  "HiCo niedostępne"
+                                },
+                     "mmw.41":  {
+                                    "name":  "Shutter zamknięty"
+                                },
+                     "mmw.42":  {
+                                    "name":  "Shutter otwarty"
+                                },
+                     "mmw.44":  {
+                                    "name":  "Błąd PIN"
+                                },
+                     "mmw.50":  {
+                                    "name":  "Pozycja S0"
+                                },
+                     "mmw.51":  {
+                                    "name":  "Pozycja S1"
+                                },
+                     "mmw.52":  {
+                                    "name":  "Pozycja S2"
+                                },
+                     "mmw.53":  {
+                                    "name":  "Pozycja S3"
+                                },
+                     "mmw.54":  {
+                                    "name":  "Pozycja S4"
+                                },
+                     "mmw.55":  {
+                                    "name":  "Karta w shutterze"
+                                },
+                     "mmw.99":  {
+                                    "name":  "RDT OK"
+                                }
+                 },
+    "catalog":  {
+                    "categories":  {
+                                       "Podstawowe":  "Podstawowe",
+                                       "Konfiguracja":  "Konfiguracja",
+                                       "Sensory":  "Czujniki",
+                                       "Odczyt":  "Odczyt",
+                                       "Zapis":  "Zapis",
+                                       "Transport":  "Transport",
+                                       "Bufory":  "Bufory",
+                                       "Porty":  "Porty",
+                                       "Serwisowe 81":  "Serwisowe 81",
+                                       "Identyfikacja":  "Identyfikacja",
+                                       "Wyjścia":  "Wyjścia",
+                                       "Read":  "Odczyt",
+                                       "Configuration":  "Konfiguracja",
+                                       "Write":  "Zapis",
+                                       "Buffers":  "Bufory",
+                                       "Basic":  "Podstawowe",
+                                       "Outputs":  "Wyjścia",
+                                       "Identification":  "Identyfikacja"
+                                   },
+                    "entries":  {
+                                    "000":  {
+                                                "description":  "Test komunikacji/no-op; bez ruchu karty."
+                                            },
+                                    "010":  {
+                                                "description":  "Programowy restart po odesłaniu odpowiedzi."
+                                            },
+                                    "04tX":  {
+                                                 "description":  "Ustaw znacznik początkowy ścieżki t."
+                                             },
+                                    "05tX":  {
+                                                 "description":  "Ustaw znacznik końcowy ścieżki t."
+                                             },
+                                    "06td":  {
+                                                 "description":  "Ustaw szerokość symbolu; parametr nie jest bezpiecznie walidowany."
+                                             },
+                                    "0701…0709":  {
+                                                      "description":  "Ustaw liczbę prób odczytu magnetycznego; 0703 jest wartością domyślną."
+                                                  },
+                                    "080I":  {
+                                                 "description":  "Standardowy tryb znakowy ISO."
+                                             },
+                                    "080S":  {
+                                                 "description":  "Tryb S: 8 bitów, bez końcowej weryfikacji LRC."
+                                             },
+                                    "080B":  {
+                                                 "description":  "Tryb RAW: bufor 800-bitowy przedstawiony jako ASCII 0/1."
+                                             },
+                                    "080V":  {
+                                                 "description":  "Tryb V: T1/T3 jako bajty szesnastkowe; T2 pozostaje 5-bitowe."
+                                             },
+                                    "120":  {
+                                                "description":  "Sprawdź obecność karty przez czujniki; bez ruchu."
+                                            },
+                                    "18t":  {
+                                                "description":  "Odczytaj ścieżkę t podczas ruchu MFW.",
+                                                "final_position":  "S4 aktywne"
+                                            },
+                                    "20t":  {
+                                                "description":  "Odczyt MRV i wykonanie procedury 055B. Zaobserwowane zachowanie: gdy karta pozostaje w pozycji początkowej, komenda czeka na wyjęcie i świeże ponowne włożenie.",
+                                                "final_position":  "wewnętrzna pozycja końcowa; S4 nieaktywne"
+                                            },
+                                    "22t":  {
+                                                "description":  "Odczyt MFW i powrót przez procedurę 05D5.",
+                                                "final_position":  "S1 aktywne; pozycja początkowa"
+                                            },
+                                    "24t":  {
+                                                "description":  "Odczyt MFW i ruch aż do zwolnienia czujników S0-S4.",
+                                                "final_position":  "S0-S4 nieaktywne"
+                                            },
+                                    "26t":  {
+                                                "description":  "Pozycjonowanie MRV, następnie odczyt równoważny 24t.",
+                                                "final_position":  "S0-S4 nieaktywne"
+                                            },
+                                    "28t":  {
+                                                "description":  "Odczyt MRV i pozycjonowanie do S2.",
+                                                "final_position":  "S2 aktywne"
+                                            },
+                                    "52t":  {
+                                                "description":  "Czekaj na kartę, odczytaj MRV i wróć do S1.",
+                                                "final_position":  "S1 aktywne"
+                                            },
+                                    "19t\u003cdata\u003e":  {
+                                                                "description":  "Pozycjonowanie, zapis MFW, weryfikacja MRV i powrót.",
+                                                                "final_position":  "S1 aktywne"
+                                                            },
+                                    "21t\u003cdata\u003e":  {
+                                                                "description":  "Zapis MRV i weryfikacja MFW.",
+                                                                "final_position":  "S4 aktywne"
+                                                            },
+                                    "23t\u003cdata\u003e":  {
+                                                                "description":  "Zapis MFW, weryfikacja MRV i powrót.",
+                                                                "final_position":  "S1 aktywne"
+                                                            },
+                                    "25t\u003cdata\u003e":  {
+                                                                "description":  "Zapis MFW, weryfikacja MRV i zwolnienie S0-S4.",
+                                                                "final_position":  "S0-S4 nieaktywne"
+                                                            },
+                                    "27t\u003cdata\u003e":  {
+                                                                "description":  "Zapis MRV, weryfikacja MFW i zwolnienie S0-S4.",
+                                                                "final_position":  "S0-S4 nieaktywne"
+                                                            },
+                                    "53t\u003cdata\u003e":  {
+                                                                "description":  "Czekaj na kartę, zapisz MFW, zweryfikuj MRV i wróć.",
+                                                                "final_position":  "S1 aktywne"
+                                                            },
+                                    "150":  {
+                                                "description":  "Ruch MFW aż do zwolnienia S0-S4.",
+                                                "final_position":  "S0-S4 nieaktywne"
+                                            },
+                                    "160":  {
+                                                "description":  "Pełna sekwencja MFW przez czujniki.",
+                                                "final_position":  "S4 nieaktywne"
+                                            },
+                                    "170":  {
+                                                "description":  "Warunkowe odzyskiwanie / pozycjonowanie zależne od stanów czujników."
+                                            },
+                                    "500":  {
+                                                "description":  "Wymaga zwolnionych S0-S2 i czeka na aktywację S4."
+                                            },
+                                    "700":  {
+                                                "description":  "Wykonaj procedurę 055B, gdy karta jest obecna.",
+                                                "final_position":  "S4 nieaktywne"
+                                            },
+                                    "710":  {
+                                                "description":  "Powrót przez procedurę 05D5, gdy karta jest obecna.",
+                                                "final_position":  "S1 aktywne"
+                                            },
+                                    "730":  {
+                                                "description":  "Pozycjonowanie MRV do S2, a następnie krótkie dobiegnięcie.",
+                                                "final_position":  "S2 aktywne"
+                                            },
+                                    "300":  {
+                                                "description":  "Zwróć 200 pozycji bufora zaczynając od 8502."
+                                            },
+                                    "310":  {
+                                                "description":  "Zwróć 200 pozycji bufora zaczynając od 85CA."
+                                            },
+                                    "320":  {
+                                                "description":  "Zwróć 200 pozycji bufora zaczynając od 8692."
+                                            },
+                                    "330":  {
+                                                "description":  "Zwróć 200 pozycji bufora zaczynając od 875A."
+                                            },
+                                    "340":  {
+                                                "description":  "Zwróć ostatni bufor 800-pozycyjny; bez nowego odczytu i bez ruchu."
+                                            },
+                                    "400D":  {
+                                                 "description":  "Procedura Shutter; brak potwierdzenia zwraca status 09."
+                                             },
+                                    "400E":  {
+                                                 "description":  "Ustaw wewnętrzną flagę 8861=FF."
+                                             },
+                                    "400M":  {
+                                                 "description":  "Ustaw 8827=C0."
+                                             },
+                                    "400N":  {
+                                                 "description":  "Ustaw 8827=80."
+                                             },
+                                    "41000…41099":  {
+                                                        "description":  "Wyłącz lub ustaw timer; jego jednostka nie jest potwierdzona."
+                                                    },
+                                    "620":  {
+                                                "description":  "Odczytaj port 80h jako osiem znaków 0/1."
+                                            },
+                                    "630xxxxxxxx":  {
+                                                        "description":  "Zapisz osiem bitów do portu 60h i podaj impuls 40.7."
+                                                    },
+                                    "650\u003ctekst\u003e":  {
+                                                                 "description":  "Wyślij tekst do opcjonalnego kontrolera LCD."
+                                                             },
+                                    "680000":  {
+                                                   "description":  "Wariant testowy 68; bez zmiany stanu."
+                                               },
+                                    "680001":  {
+                                                   "description":  "Wyczyść wyjście E01C."
+                                               },
+                                    "680030":  {
+                                                   "description":  "Odczytaj wejście E01D."
+                                               },
+                                    "680040xxxxxxxx":  {
+                                                           "description":  "Zapisz osiem bitów do E01C."
+                                                       },
+                                    "810020":  {
+                                                   "description":  "Złożona procedura transportu i odzyskiwania."
+                                               },
+                                    "810022":  {
+                                                   "description":  "MFW przez czujniki, impuls 40.7 i ruch do S4."
+                                               },
+                                    "810024":  {
+                                                   "description":  "Handshake/odzyskiwanie 60.2/80.4; niebezpieczna ścieżka błędu."
+                                               },
+                                    "810026":  {
+                                                   "description":  "Ustaw port 60.2=1 i czekaj."
+                                               },
+                                    "810028":  {
+                                                   "description":  "Ustaw 60.2 i wykonaj pełny powrót 05D5."
+                                               },
+                                    "810030":  {
+                                                   "description":  "Ustaw 60.2 i warunkowo zwolnij czujniki MFW."
+                                               },
+                                    "970":  {
+                                                "description":  "Informacja o wersji / self-test."
+                                            },
+                                    "980":  {
+                                                "description":  "Wersja opcjonalnego kontrolera LCD."
+                                            },
+                                    "990":  {
+                                                "description":  "Wersja głównego kontrolera."
+                                            },
+                                    "aa":  {
+                                               "description":  "Wczytaj kartę, odczytaj ISO ze ścieżki 2 i wyrzuć z przodu.",
+                                               "final_position":  "karta z przodu"
+                                           },
+                                    "ab":  {
+                                               "description":  "Wczytaj kartę, odczytaj ISO ze ścieżki 2 i wyrzuć z tyłu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "ea":  {
+                                               "description":  "Wczytaj kartę, odczytaj 200-bitowy bufor RAW ze ścieżki 2 i wyrzuć z przodu.",
+                                               "final_position":  "karta z przodu"
+                                           },
+                                    "eb":  {
+                                               "description":  "Wczytaj kartę, odczytaj 200-bitowy bufor RAW ze ścieżki 2 i wyrzuć z tyłu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "ec":  {
+                                               "description":  "Wczytaj kartę, odczytaj 200-bitowy bufor RAW ze ścieżki 2 i pozostaw ją na tylnej pozycji wewnętrznej.",
+                                               "final_position":  "tylna pozycja wewnętrzna"
+                                           },
+                                    "ed":  {
+                                               "description":  "Przesuń kartę z tylnej pozycji wewnętrznej na przednią pozycję wewnętrzną, bez wysunięcia.",
+                                               "final_position":  "przednia pozycja wewnętrzna"
+                                           },
+                                    "ee":  {
+                                               "description":  "Przesuń kartę z tylnej pozycji wewnętrznej na pozycję wejściową; karta pozostaje gotowa do ponownego wciągnięcia.",
+                                               "final_position":  "pozycja wejściowa"
+                                           },
+                                    "ef":  {
+                                               "description":  "Z tylnej pozycji wewnętrznej cofnij kartę do początku mechanizmu, a następnie wyrzuć ją tyłem; z przedniej pozycji wewnętrznej nie wykonuje ruchu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "eg":  {
+                                               "description":  "Z tylnej pozycji wewnętrznej przesuń kartę na przednią pozycję wewnętrzną, odczytaj 200-bitowy bufor RAW ze ścieżki 2 i wróć na tylną pozycję wewnętrzną.",
+                                               "final_position":  "tylna pozycja wewnętrzna"
+                                           },
+                                    "eh":  {
+                                               "description":  "Z przedniej pozycji wewnętrznej przesuń kartę na tylną pozycję wewnętrzną, odczytaj 200-bitowy bufor RAW ze ścieżki 2 i wróć na przednią pozycję wewnętrzną.",
+                                               "final_position":  "przednia pozycja wewnętrzna"
+                                           },
+                                    "ba\u003cdata\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz rekord ISO na ścieżce 2, zweryfikuj i wyrzuć z przodu.",
+                                                               "final_position":  "karta z przodu"
+                                                           },
+                                    "bb\u003cdata\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz rekord ISO na ścieżce 2, zweryfikuj i wyrzuć z tyłu.",
+                                                               "final_position":  "karta z tyłu"
+                                                           },
+                                    "bc\u003cdata\u003e":  {
+                                                               "description":  "Z pozycji wejściowej zapisz i zweryfikuj rekord ISO na ścieżce 2, a następnie przesuń kartę na przednią pozycję wewnętrzną.",
+                                                               "final_position":  "przednia pozycja wewnętrzna"
+                                                           },
+                                    "bd\u003cdata\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj rekord ISO na ścieżce 2, a następnie przesuń kartę na pozycję wejściową.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "be\u003cdata\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj rekord ISO na ścieżce 2, a następnie przesuń kartę na pozycję wejściową.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "bf\u003cdata\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj rekord ISO na ścieżce 2, a następnie wyrzuć kartę z czytnika.",
+                                                               "final_position":  "karta poza czytnikiem"
+                                                           },
+                                    "bg\u003cdata\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj rekord ISO na ścieżce 2, pozostawiając kartę na tej pozycji.",
+                                                               "final_position":  "przednia pozycja wewnętrzna"
+                                                           },
+                                    "bh\u003cdata\u003e":  {
+                                                               "description":  "Z pozycji wejściowej zapisz i zweryfikuj rekord ISO na ścieżce 2, pozostawiając kartę na tej pozycji.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "fa\u003cbits\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz 200-bitowy bufor RAW na ścieżce 2, zweryfikuj i wyrzuć z przodu.",
+                                                               "final_position":  "karta z przodu"
+                                                           },
+                                    "fb\u003cbits\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz 200-bitowy bufor RAW na ścieżce 2, zweryfikuj i wyrzuć z tyłu.",
+                                                               "final_position":  "karta z tyłu"
+                                                           },
+                                    "fc\u003cbits\u003e":  {
+                                                               "description":  "Z pozycji wejściowej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, a następnie przesuń kartę na przednią pozycję wewnętrzną.",
+                                                               "final_position":  "przednia pozycja wewnętrzna"
+                                                           },
+                                    "fd\u003cbits\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, a następnie przesuń kartę na pozycję wejściową.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "fe\u003cbits\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, a następnie przesuń kartę na pozycję wejściową.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "ff\u003cbits\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, a następnie wyrzuć kartę z czytnika także po błędzie weryfikacji.",
+                                                               "final_position":  "karta poza czytnikiem"
+                                                           },
+                                    "fg\u003cbits\u003e":  {
+                                                               "description":  "Z przedniej pozycji wewnętrznej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, pozostawiając kartę na tej pozycji.",
+                                                               "final_position":  "przednia pozycja wewnętrzna"
+                                                           },
+                                    "fh\u003cbits\u003e":  {
+                                                               "description":  "Z pozycji wejściowej zapisz i zweryfikuj 200-bitowy bufor RAW na ścieżce 2, pozostawiając kartę na tej pozycji.",
+                                                               "final_position":  "pozycja wejściowa"
+                                                           },
+                                    "z":  {
+                                              "description":  "Odczytaj identyfikację czytnika."
+                                          },
+                                    "t":  {
+                                              "description":  "Odczytaj konfigurację czytnika."
+                                          },
+                                    "x":  {
+                                              "description":  "Zresetuj czytnik."
+                                          },
+                                    "p":  {
+                                              "description":  "Odczytaj stan czujników położenia karty."
+                                          },
+                                    "jss":  {
+                                                "description":  "Wybierz format ISO."
+                                            },
+                                    "jsn":  {
+                                                "description":  "Wybierz format SIPASS."
+                                            },
+                                    "jhs":  {
+                                                "description":  "Wybierz zapis LoCo."
+                                            },
+                                    "jhn":  {
+                                                "description":  "Wybierz zapis HiCo."
+                                            },
+                                    "aca":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 1 i wyrzuć ją z przodu.",
+                                                "final_position":  "karta z przodu"
+                                            },
+                                    "acb":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 2 i wyrzuć ją z przodu.",
+                                                "final_position":  "karta z przodu"
+                                            },
+                                    "acd":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 3 i wyrzuć ją z przodu.",
+                                                "final_position":  "karta z przodu"
+                                            },
+                                    "acg":  {
+                                                "description":  "Wczytaj kartę, odczytaj wszystkie ścieżki i wyrzuć ją z przodu.",
+                                                "final_position":  "karta z przodu"
+                                            },
+                                    "aka":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 1 i wyrzuć ją z tyłu.",
+                                                "final_position":  "karta z tyłu"
+                                            },
+                                    "akb":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 2 i wyrzuć ją z tyłu.",
+                                                "final_position":  "karta z tyłu"
+                                            },
+                                    "akd":  {
+                                                "description":  "Wczytaj kartę, odczytaj ścieżkę 3 i wyrzuć ją z tyłu.",
+                                                "final_position":  "karta z tyłu"
+                                            },
+                                    "akg":  {
+                                                "description":  "Wczytaj kartę, odczytaj wszystkie ścieżki i wyrzuć ją z tyłu.",
+                                                "final_position":  "karta z tyłu"
+                                            },
+                                    "kaa":  {
+                                                "description":  "Zwróć bufor odczytanej ścieżki 1."
+                                            },
+                                    "kab":  {
+                                                "description":  "Zwróć bufor odczytanej ścieżki 2."
+                                            },
+                                    "kad":  {
+                                                "description":  "Zwróć bufor odczytanej ścieżki 3."
+                                            },
+                                    "dc":  {
+                                               "description":  "Wyrzuć kartę z przodu.",
+                                               "final_position":  "karta z przodu"
+                                           },
+                                    "dk":  {
+                                               "description":  "Wyrzuć kartę z tyłu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "haa\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj dane ścieżki 1 do bufora zapisu."
+                                                            },
+                                    "hab\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj dane ścieżki 2 do bufora zapisu."
+                                                            },
+                                    "had\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj dane ścieżki 3 do bufora zapisu."
+                                                            },
+                                    "bca\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 1 i wyrzuć ją z przodu.",
+                                                                "final_position":  "karta z przodu"
+                                                            },
+                                    "bcb\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 2 i wyrzuć ją z przodu.",
+                                                                "final_position":  "karta z przodu"
+                                                            },
+                                    "bcd\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 3 i wyrzuć ją z przodu.",
+                                                                "final_position":  "karta z przodu"
+                                                            },
+                                    "bka\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 1 i wyrzuć ją z tyłu.",
+                                                                "final_position":  "karta z tyłu"
+                                                            },
+                                    "bkb\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 2 i wyrzuć ją z tyłu.",
+                                                                "final_position":  "karta z tyłu"
+                                                            },
+                                    "bkd\u003cdata\u003e":  {
+                                                                "description":  "Wczytaj kartę, zapisz ścieżkę 3 i wyrzuć ją z tyłu.",
+                                                                "final_position":  "karta z tyłu"
+                                                            },
+                                    "bcg":  {
+                                                "description":  "Zapisz wszystkie wcześniej wczytane bufory i wyrzuć kartę z przodu.",
+                                                "final_position":  "karta z przodu"
+                                            },
+                                    "bkg":  {
+                                                "description":  "Zapisz wszystkie wcześniej wczytane bufory i wyrzuć kartę z tyłu.",
+                                                "final_position":  "karta z tyłu"
+                                            },
+                                    "y\u003cconfig\u003e":  {
+                                                                "description":  "Zapisz pełny blok konfiguracji MMW. Najpierw odczytaj go komendą t; wysłanie samego y zapisuje pusty blok."
+                                                            },
+                                    "gan":  {
+                                                "description":  "Włącz wyjście a."
+                                            },
+                                    "gas":  {
+                                                "description":  "Wyłącz wyjście a."
+                                            },
+                                    "gbn":  {
+                                                "description":  "Włącz wyjście b."
+                                            },
+                                    "gbs":  {
+                                                "description":  "Wyłącz wyjście b."
+                                            },
+                                    "gcn":  {
+                                                "description":  "Włącz wyjście c."
+                                            },
+                                    "gcs":  {
+                                                "description":  "Wyłącz wyjście c."
+                                            },
+                                    "gdn":  {
+                                                "description":  "Włącz wyjście d."
+                                            },
+                                    "gds":  {
+                                                "description":  "Wyłącz wyjście d."
+                                            },
+                                    "gen":  {
+                                                "description":  "Włącz wyjście e."
+                                            },
+                                    "ges":  {
+                                                "description":  "Wyłącz wyjście e."
+                                            },
+                                    "gfn":  {
+                                                "description":  "Włącz wyjście f."
+                                            },
+                                    "gfs":  {
+                                                "description":  "Wyłącz wyjście f."
+                                            },
+                                    "ggn":  {
+                                                "description":  "Włącz wyjście g."
+                                            },
+                                    "ggs":  {
+                                                "description":  "Wyłącz wyjście g."
+                                            },
+                                    "ac":  {
+                                               "description":  "Wczytaj kartę, odczytaj ścieżkę 2 w formacie ISO i pozostaw ją na tylnej pozycji wewnętrznej.",
+                                               "final_position":  "tylna pozycja wewnętrzna"
+                                           },
+                                    "ad":  {
+                                               "description":  "Przesuń kartę z tylnej pozycji wewnętrznej na przednią pozycję wewnętrzną bez jej wyrzucania.",
+                                               "final_position":  "karta wewnątrz"
+                                           },
+                                    "ae":  {
+                                               "description":  "Przesuń kartę z tylnej pozycji wewnętrznej na pozycję wejściową, gotową do ponownego wczytania.",
+                                               "final_position":  "pozycja wejściowa"
+                                           },
+                                    "af":  {
+                                               "description":  "Cofnij kartę z tylnej pozycji wewnętrznej i wyrzuć ją z tyłu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "ag":  {
+                                               "description":  "Odczytaj ścieżkę 2 w formacie ISO z tylnej pozycji wewnętrznej i pozostaw tam kartę.",
+                                               "final_position":  "tylna pozycja wewnętrzna"
+                                           },
+                                    "ah":  {
+                                               "description":  "Odczytaj ścieżkę 2 w formacie ISO z przedniej pozycji wewnętrznej i pozostaw tam kartę.",
+                                               "final_position":  "przednia pozycja wewnętrzna"
+                                           },
+                                    "da":  {
+                                               "description":  "Wyrzuć kartę z przodu.",
+                                               "final_position":  "karta z przodu"
+                                           },
+                                    "db":  {
+                                               "description":  "Wyrzuć kartę z tyłu.",
+                                               "final_position":  "karta z tyłu"
+                                           },
+                                    "ja\u003cdata\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz ścieżkę 2 w formacie ISO bez weryfikacji i wyrzuć ją z przodu.",
+                                                               "final_position":  "karta z przodu"
+                                                           },
+                                    "jb\u003cdata\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz ścieżkę 2 w formacie ISO bez weryfikacji i wyrzuć ją z tyłu.",
+                                                               "final_position":  "karta z tyłu"
+                                                           },
+                                    "na\u003cbits\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz 200-bitowy bufor RAW na ścieżce 2 bez weryfikacji i wyrzuć ją z przodu.",
+                                                               "final_position":  "karta z przodu"
+                                                           },
+                                    "nb\u003cbits\u003e":  {
+                                                               "description":  "Wczytaj kartę, zapisz 200-bitowy bufor RAW na ścieżce 2 bez weryfikacji i wyrzuć ją z tyłu.",
+                                                               "final_position":  "karta z tyłu"
+                                                           }
+                                }
+                }
+}

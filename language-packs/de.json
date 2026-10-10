@@ -1,0 +1,1064 @@
+{
+    "meta":  {
+                 "code":  "de",
+                 "name":  "Deutsch"
+             },
+    "strings":  {
+                    "app.documentTitle":  "StripeLAN",
+                    "app.title":  "StripeLAN - Magnetkarten-Programmierer",
+                    "app.subtitle":  "",
+                    "language.title":  "Sprache",
+                    "language.load":  "Sprache laden",
+                    "language.loaded":  "Sprache geladen: {name}",
+                    "language.delete":  "Löschen",
+                    "language.deleteConfirm":  "Sprache „{code}“ löschen?",
+                    "language.deleted":  "Sprache gelöscht",
+                    "language.deleteBuiltin":  "Integrierte Sprachen können nicht gelöscht werden",
+                    "connection.title":  "Verbindung",
+                    "connection.settings":  "Verbindungseinstellungen",
+                    "connection.refresh":  "Ports aktualisieren",
+                    "connection.port":  "Kommunikationsport",
+                    "connection.choosePort":  "Port wählen…",
+                    "connection.notDetected":  "derzeit nicht erkannt",
+                    "connection.speed":  "Geschwindigkeit",
+                    "connection.dataBits":  "Datenbits",
+                    "connection.parity":  "Parität",
+                    "connection.even":  "Gerade",
+                    "connection.odd":  "Ungerade",
+                    "connection.stopBits":  "Stoppbits",
+                    "connection.encoding":  "Kodierung",
+                    "connection.protocol":  "Protokoll",
+                    "connection.demo":  "Demomodus — ohne Gerät",
+                    "connection.connect":  "Einstellungen speichern und verbinden",
+                    "connection.disconnect":  "Bis zum Neustart trennen",
+                    "connection.settingsSaved":  "Einstellungen gespeichert; Verbindung bereit",
+                    "connection.settingsWaiting":  "Einstellungen gespeichert; warte auf Gerät",
+                    "connection.connected":  "Verbunden",
+                    "connection.disconnected":  "Getrennt",
+                    "connection.demoBadge":  "Demo",
+                    "admin.title":  "Administrationsbereich",
+                    "admin.updateTitle":  "Anwendung aus Datei aktualisieren",
+                    "admin.updateHint":  "Laden Sie nur ein geprüftes Aktualisierungspaket hoch. Die Installation beginnt nach Bestätigung per Kontrollkästchen.",
+                    "admin.install":  "Prüfen und installieren",
+                    "admin.confirm":  "Ich bestätige die Installation des ausgewählten Pakets und den Neustart der Anwendung.",
+                    "admin.noUpdate":  "Kein Update ausstehend",
+                    "admin.selectFile":  "ZIP-Updatepaket auswählen",
+                    "admin.started":  "Update gestartet. Das Panel wird neu gestartet.",
+                    "admin.queued":  "Das Update wurde geprüft und zur Installation vorgemerkt.",
+                    "admin.installing":  "Update wird installiert…",
+                    "admin.success":  "Update abgeschlossen. Die Anwendung wurde neu gestartet.",
+                    "admin.error":  "Update fehlgeschlagen. Die vorherige Version wurde wiederhergestellt.",
+                    "admin.warning":  "Update mit Warnung abgeschlossen.",
+                    "admin.layoutTitle":  "Panelanordnung",
+                    "admin.layoutHint":  "Eine JSON-Layoutdatei laden, ohne das ganze System zu aktualisieren.",
+                    "admin.layoutChoose":  "Gespeichertes Layout auswählen",
+                    "admin.layoutDelete":  "Löschen",
+                    "admin.layoutDeleteConfirm":  "Ausgewähltes Layout löschen?",
+                    "admin.layoutDeleted":  "Layout gelöscht",
+                    "admin.layoutLoad":  "Layout laden",
+                    "admin.layoutLoaded":  "Layout geladen",
+                    "admin.layoutError":  "Layoutfehler",
+                    "admin.layoutSelect":  "JSON-Layoutdatei auswählen",
+                    "admin.powerTitle":  "Stromversorgung",
+                    "admin.powerHint":  "Fährt das Betriebssystem sicher herunter oder startet es neu.",
+                    "admin.powerUnavailable":  "Der Stromsteuerungsdienst erfordert eine einmalige Systemaktivierung.",
+                    "admin.poweroffTitle":  "Gerät ausschalten",
+                    "admin.poweroffHint":  "Fährt das Betriebssystem sicher herunter.",
+                    "admin.poweroffUnavailable":  "Der Ausschalt-Dienst ist noch nicht aktiv.",
+                    "admin.poweroff":  "Gerät ausschalten",
+                    "admin.poweroffConfirm":  "Gerät wirklich ausschalten? Ein laufender Vorgang wird unterbrochen.",
+                    "admin.poweroffProgress":  "Gerät wird heruntergefahren…",
+                    "admin.poweroffWait":  "Das System wurde heruntergefahren. Sie können die Stromversorgung trennen.",
+                    "admin.reboot":  "Neustart",
+                    "admin.rebootConfirm":  "Gerät wirklich neu starten? Ein laufender Vorgang wird unterbrochen.",
+                    "admin.rebootProgress":  "Gerät wird neu gestartet…",
+                    "admin.rebootWait":  "Warten Sie auf den Neustart des Geräts und verbinden Sie sich erneut mit dem Panel.",
+                    "common.command":  "Befehl",
+                    "common.format":  "Format",
+                    "common.ending":  "Zeilenende",
+                    "common.text":  "Text",
+                    "common.none":  "Keins",
+                    "common.save":  "Speichern",
+                    "common.saved":  "Gespeichert",
+                    "common.delete":  "Löschen",
+                    "common.reset":  "Zurücksetzen",
+                    "common.more":  "Mehr Optionen",
+                    "commands.title":  "Befehle",
+                    "commands.search":  "Befehl oder Beschreibung suchen…",
+                    "commands.allGroups":  "Alle Gruppen",
+                    "commands.otherCategory":  "Andere",
+                    "commands.addCommandEmpty":  "Befehl eingeben",
+                    "commands.added":  "Befehl hinzugefügt",
+                    "commands.addToSequence":  "Zur Sequenz hinzufügen",
+                    "commands.deleteBuiltin":  "Integrierte Befehle können nicht gelöscht werden",
+                    "commands.deleteCommand":  "Befehl löschen",
+                    "commands.deleteConfirm":  "Befehl {command} löschen?",
+                    "commands.deleted":  "Befehl gelöscht",
+                    "commands.ready":  "Fertige Prozeduren:",
+                    "commands.descriptionLabel":  "Beschreibung",
+                    "commands.descriptionPlaceholder":  "Befehlsbeschreibung",
+                    "commands.identify":  "Identifikation",
+                    "commands.readIso":  "ISO-Lesen in beide Richtungen",
+                    "commands.readRaw":  "RAW-Lesen in beide Richtungen",
+                    "commands.eraseRaw":  "RAW T1–T3 löschen",
+                    "commands.buffers":  "Puffer 300–340",
+                    "manual.title":  "Befehl senden",
+                    "manual.placeholder":  "Text oder HEX-Bytes eingeben",
+                    "manual.send":  "Senden",
+                    "manual.riskConfirm":  "Ich bestätige, dass diese Karte und dieses Gerät für diesen Vorgang vorgesehen sind und ich das Risiko verstehe.",
+                    "manual.hint":  "Das Controller-Protokoll erfordert ein CR-LF-Zeilenende. Im HEX-Modus Bytes in hexadezimaler Schreibweise eingeben.",
+                    "log.title":  "Übertragungsprotokoll und Status",
+                    "log.download":  "Protokoll herunterladen",
+                    "log.downloadStarted":  "Protokoll-Download gestartet",
+                    "log.exportName":  "Übertragungsprotokoll",
+                    "log.copyClear":  "Kopieren und leeren",
+                    "log.clear":  "Leeren",
+                    "log.time":  "Zeit",
+                    "log.direction":  "Richtung",
+                    "log.content":  "Inhalt / Bytes",
+                    "log.empty":  "Keine Übertragung",
+                    "log.isEmpty":  "Das Protokoll ist leer",
+                    "log.copiedCleared":  "Protokoll kopiert und geleert",
+                    "log.copyFailed":  "{error}. Das Protokoll wurde nicht gelöscht.",
+                    "log.bufferSummary":  "{bits}-Bit-Puffer · Einsen: {ones} · Nullen: {zeros}",
+                    "log.fullResponseLength":  "Die vollständige Antwort enthält {length} Zeichen + CR LF",
+                    "log.characters":  "{count} Zeichen",
+                    "status.label":  "Status",
+                    "status.selectorTrack":  "Spur {selector}",
+                    "status.undocumented":  "Nicht dokumentierter Status",
+                    "events.connected":  "Verbunden: {target}",
+                    "events.disconnected":  "Getrennt",
+                    "events.receiveError":  "Empfangsfehler: {error}",
+                    "sequence.title":  "Sequenz senden",
+                    "sequence.addStep":  "+ Schritt hinzufügen",
+                    "sequence.name":  "Prozedurname",
+                    "sequence.guided":  "Schrittmodus — nach jeder Antwort anhalten und auf eine Kartenbeobachtung warten",
+                    "sequence.start":  "Sequenz starten",
+                    "sequence.cancel":  "Abbrechen",
+                    "sequence.riskConfirm":  "Risiko! Bestätigen.",
+                    "sequence.sent":  "Gesendet",
+                    "sequence.whatHappened":  "Was ist mit der Karte passiert?",
+                    "sequence.observationPlaceholder":  "Zum Beispiel: Karte fuhr hinein und blieb stehen…",
+                    "sequence.hint":  "Normalerweise wird der nächste Befehl nach Erkennung der Controller-Antwort gesendet. Im Schrittmodus wartet die Anwendung zusätzlich auf eine Bedienernotiz.",
+                    "sequence.operatorHint":  "Hinweis für den Bediener",
+                    "sequence.whatObserve":  "Was soll beobachtet werden?",
+                    "sequence.executeOne":  "Senden",
+                    "sequence.executeOneTitle":  "Nur diesen Befehl senden",
+                    "sequence.removeStep":  "Schritt entfernen",
+                    "sequence.enabled":  "Aktiv",
+                    "sequence.moveUp":  "Nach oben verschieben",
+                    "sequence.moveDown":  "Nach unten verschieben",
+                    "sequence.reorder":  "Schritt neu anordnen",
+                    "sequence.stepAdded":  "Schritt hinzugefügt",
+                    "sequence.savedPlaceholder":  "Gespeicherte Prozeduren…",
+                    "sequence.savedCapturePlaceholder":  "Gespeicherte Dateien…",
+                    "sequence.loadSaved":  "Laden",
+                    "sequence.save":  "Speichern",
+                    "sequence.saveAs":  "Als neu speichern",
+                    "sequence.delete":  "Löschen",
+                    "sequence.clear":  "Leeren",
+                    "sequence.saved":  "Sequenz gespeichert",
+                    "sequence.loaded":  "Sequenz geladen",
+                    "sequence.deleted":  "Sequenz gelöscht",
+                    "sequence.cleared":  "Sequenzfenster geleert",
+                    "sequence.chooseSaved":  "Gespeicherte Sequenz auswählen",
+                    "sequence.deleteConfirm":  "Ausgewählte gespeicherte Sequenz löschen?",
+                    "sequence.chooseCapture":  "Gespeicherte Kartendatei auswählen",
+                    "sequence.singleSent":  "Einzelbefehl gesendet: {command}",
+                    "sequence.defaultName":  "Kartenpositionstest",
+                    "sequence.enterCommand":  "Befehl in dieser Zeile eingeben",
+                    "sequence.confirmRiskFirst":  "Bestätigung für riskante Sequenz aktivieren und erneut versuchen",
+                    "sequence.defaultInstruction1":  "Kartenposition nach dem Befehl beschreiben",
+                    "sequence.defaultInstruction2":  "Reaktion der Karte beschreiben",
+                    "sequence.stepCounter":  "Schritt {current} von {total}",
+                    "sequence.stepLabel":  "Schritt {step}:",
+                    "sequence.observeCard":  "Kartenbewegung und Position beobachten.",
+                    "sequence.status.waitingBoth":  "Warte auf vollständige erkannte Geräteantwort und Beobachtung",
+                    "sequence.status.observationSaved":  "Beobachtung gespeichert — warte auf vollständige erkannte Antwort",
+                    "sequence.status.waitingResponse":  "Warte auf vollständige erkannte Antwort",
+                    "sequence.status.waitingObservation":  "Antwort empfangen und erkannt — warte auf Beobachtung",
+                    "sequence.status.completed":  "Sequenz abgeschlossen",
+                    "sequence.status.cancelled":  "Abgebrochen",
+                    "sequence.status.error":  "Sequenzfehler",
+                    "sequence.saveWait":  "Beobachtung speichern — nächster Schritt nach der Antwort",
+                    "sequence.saveFinish":  "Beobachtung speichern und beenden",
+                    "sequence.saveNext":  "Beobachtung speichern und nächsten Schritt ausführen",
+                    "presets.identify.name":  "Controller-Identifikation",
+                    "presets.readIso.name":  "ISO-Lesen — beide Richtungen",
+                    "presets.readRaw.name":  "RAW-Lesen — beide Richtungen",
+                    "presets.eraseRaw.name":  "RAW auf allen Spuren löschen",
+                    "presets.buffers.name":  "Alle Puffer ausgeben",
+                    "presets.operatorInstruction":  "Antwort, Bewegung und Endposition der Karte beschreiben.",
+                    "captures.title":  "Kartendateien und Vergleich",
+                    "captures.refresh":  "Aktualisieren",
+                    "captures.name":  "Datei- / Messname",
+                    "captures.namePlaceholder":  "Zum Beispiel: Testkarte — Lesen 1",
+                    "captures.unnamedCard":  "Unbenannte Karte",
+                    "captures.mode":  "Datenmodus",
+                    "captures.notes":  "Notizen",
+                    "captures.notesPlaceholder":  "Kartenzustand, Einstellungen, Testzweck…",
+                    "captures.save":  "Aktuelles Protokoll speichern",
+                    "captures.import":  "Datei laden",
+                    "captures.useSequenceName":  "Prozedurname verwenden",
+                    "captures.hint":  "Die JSON-Datei enthält Antworten, Spurdaten, Status, HEX-Bytes und Zeitstempel. Sie kann sensible Daten enthalten — lokal aufbewahren.",
+                    "captures.compareTitle":  "Zwei Auslesungen vergleichen",
+                    "captures.compare":  "Vergleichen",
+                    "captures.itemSummary":  "Modus {mode} · T1 {t1} · T2 {t2} · T3 {t3} · Puffer {buffers}",
+                    "captures.download":  "JSON herunterladen",
+                    "captures.delete":  "Löschen",
+                    "captures.savedFiles":  "Gespeicherte Dateien…",
+                    "captures.deleteConfirm":  "Gespeicherte Datei \"{name}\" löschen?",
+                    "captures.deleted":  "Gespeicherte Datei gelöscht",
+                    "captures.prepareCopy":  "Kopie vorbereiten",
+                    "captures.empty":  "Noch keine Messungen gespeichert",
+                    "captures.copyReady":  "Kopierplan vorbereitet — jeden Schritt vor dem Start prüfen",
+                    "captures.copyName":  "Kopie: {name}",
+                    "captures.copyConfirmMode":  "Bestätigen Sie den gewählten Modus vor dem Schreiben.",
+                    "captures.copyConfirmAttempt":  "Bestätigen Sie die Standard-Einstellung von drei Versuchen.",
+                    "captures.copyObserveWrite":  "Schreiben und Verifikationslesen von Spur {track} beobachten.",
+                    "captures.copyVerifyRead":  "Verifikationslesen von Spur {track}; Kartenposition beschreiben.",
+                    "captures.saved":  "{name} im Arbeitsspeicher gespeichert",
+                    "captures.selectJson":  "JSON-Datei auswählen",
+                    "captures.imported":  "{name} geladen",
+                    "captures.trackComparison":  "Spur {track}: {result} (Längen {left}/{right})",
+                    "captures.bufferComparison":  "Puffer {command}: {result} (Längen {left}/{right})",
+                    "captures.identicalF":  "identisch",
+                    "captures.identicalM":  "identisch",
+                    "captures.differences":  "{count} Unterschiede",
+                    "commands.finalPosition":  "Endposition",
+                    "commands.noMatches":  "Keine passenden Befehle",
+                    "commands.knownFamily":  "Bekannte Befehlsfamilie.",
+                    "commands.unknown":  "Befehl außerhalb des bestätigten Katalogs — vor dem Senden prüfen.",
+                    "risk.normal":  "standard / ohne Bewegung",
+                    "risk.caution":  "vorsichtig",
+                    "risk.blocking":  "kann warten",
+                    "risk.destructive":  "schreibt auf Karte",
+                    "risk.danger":  "gefährlich",
+                    "risk.warning.caution":  "Dieser Befehl erfordert Vorsicht.",
+                    "risk.warning.blocking":  "Dieser Befehl kann auf eine Karte oder Sensoränderung warten.",
+                    "risk.warning.destructive":  "Dieser Befehl kann Kartendaten ändern oder löschen.",
+                    "risk.warning.danger":  "Riskanter Service-Befehl.",
+                    "errors.invalidLanguageFile":  "Ungültige Sprachdatei",
+                    "errors.languageLoad":  "Sprache konnte nicht geladen werden",
+                    "errors.languageImport":  "Fehler beim Sprachimport",
+                    "errors.update":  "Update-Fehler",
+                    "errors.captureImport":  "Importfehler",
+                    "errors.clipboard":  "Der Browser hat das Kopieren des Protokolls nicht erlaubt",
+                    "errors.http":  "HTTP-Fehler {status}",
+                    "errors.hexPairs":  "Ein HEX-Befehl muss vollständige Byte-Paare enthalten",
+                    "errors.invalidHex":  "Ungültiger HEX-Befehl",
+                    "errors.commandMode":  "Ungültiger Befehlsmodus",
+                    "errors.lineEnding":  "Ungültiges Zeilenende des Befehls",
+                    "errors.connectFirst":  "Zuerst das Gerät verbinden",
+                    "errors.emptyCommand":  "Der Befehl darf nicht leer sein",
+                    "errors.sequenceEmpty":  "Die Sequenz muss mindestens einen Schritt enthalten",
+                    "errors.sequenceStepCommand":  "Schritt {step} enthält keinen Befehl",
+                    "errors.publicEditionRestricted":  "Diese Operation ist in der öffentlichen Version nicht verfügbar.",
+                    "errors.sequenceNoEnabled":  "Die Sequenz enthält keine aktiven Befehle",
+                    "errors.sequenceName":  "Sequenzname eingeben",
+                    "errors.sequenceRisk":  "Die Sequenz enthält einen Schreib-, Lösch- oder blockierenden Befehl.",
+                    "errors.sequenceActive":  "Warten Sie, bis die aktive Sequenz abgeschlossen ist",
+                    "errors.observationRequired":  "Beschreiben Sie, was mit der Karte passiert ist",
+                    "errors.selectPort":  "Seriellen Port auswählen",
+                    "errors.encoding":  "Nicht unterstützte Kodierung",
+                    "errors.selectJson":  "JSON-Datei auswählen",
+                    "errors.selectLanguageJson":  "JSON-Sprachdatei auswählen",
+                    "errors.languageStructure":  "Ungültige Struktur der Sprachdatei",
+                    "errors.languageNotFound":  "Sprache nicht gefunden",
+                    "errors.languageCode":  "Ungültiger Sprachcode",
+                    "errors.captureId":  "Ungültige Kennung der gespeicherten Kartendatei",
+                    "errors.captureJson":  "Die Datei ist kein gültiger StripeLAN-JSON-Mitschnitt",
+                    "errors.captureMode":  "Die Datei enthält keinen unterstützten Kartenmodus",
+                    "errors.captureTracks":  "Ungültiger Spurbereich",
+                    "errors.captureNoTracks":  "Der Mitschnitt enthält keine korrekt gelesenen Spurdaten",
+                    "errors.selectUpdate":  "ZIP-Updatepaket auswählen",
+                    "errors.updateZip":  "Das Updatepaket muss eine ZIP-Datei sein",
+                    "errors.updatePending":  "Ein anderes Update wartet bereits auf die Installation",
+                    "errors.poweroffConfirmation":  "Ungültige Bestätigung zum Ausschalten",
+                    "errors.poweroffDuringUpdate":  "Das Gerät kann während eines laufenden Updates nicht ausgeschaltet werden",
+                    "errors.poweroffUnavailable":  "Der Ausschalt-Dienst ist noch nicht aktiv",
+                    "errors.rebootConfirmation":  "Ungültige Neustartbestätigung",
+                    "errors.rebootDuringUpdate":  "Das Gerät kann während einer Aktualisierung nicht neu gestartet werden",
+                    "errors.rebootUnavailable":  "Der Neustartdienst ist noch nicht aktiv",
+                    "common.close":  "Schließen",
+                    "admin.licenseShow":  "Lizenzbedingungen anzeigen",
+                    "admin.licenseGrantShow":  "Lizenzzertifikat",
+                    "admin.licenseGrantMissing":  "Kein Lizenzzertifikat",
+                    "admin.licenseHint":  "Allgemeine Lizenzbedingungen der installierten Softwareversion anzeigen.",
+                    "admin.licenseLoadError":  "Lizenz konnte nicht geladen werden",
+                    "admin.licenseTitle":  "Lizenzbedingungen",
+                    "commands.category":  "Kategorie",
+                    "commands.customCategory":  "Andere Kategorie",
+                    "commands.addCommand":  "+ Befehl hinzufügen",
+                    "commands.addCommandTitle":  "Befehl hinzufügen",
+                    "common.cancel":  "Abbrechen",
+                    "sequence.saveObservation":  "Beobachtung speichern und fortfahren",
+                    "captures.compareWith":  "mit",
+                    "errors.commandRequired":  "Befehl eingeben",
+                    "errors.languageKeepOne":  "Mindestens eine Sprache muss erhalten bleiben",
+                    "errors.commandBuiltinDelete":  "Eingebaute Befehle können nicht gelöscht werden",
+                    "errors.layoutNotFound":  "Layout nicht gefunden",
+                    "errors.commandExists":  "Der Befehl ist bereits im Katalog vorhanden",
+                    "errors.commandTooLong":  "Der Befehl ist zu lang",
+                    "errors.selectLayoutJson":  "Layout-JSON-Datei auswählen",
+                    "errors.commandAscii":  "Der Befehl darf nur ASCII-Zeichen enthalten",
+                    "errors.layoutKeepOne":  "Mindestens ein Layout muss erhalten bleiben",
+                    "errors.layoutCode":  "Ungültiger Layout-Code"
+                },
+    "statuses":  {
+                     "00":  {
+                                "name":  "Erfolg",
+                                "detail":  "Der Befehl wurde ohne vom Firmware-Code erkannten Fehler abgeschlossen."
+                            },
+                     "01":  {
+                                "name":  "S4-Ereignis",
+                                "detail":  "S4 wurde während des Befehls 500 aktiv."
+                            },
+                     "03":  {
+                                "name":  "Parser-Timeout",
+                                "detail":  "Es wurde kein vollständiger mit CR LF abgeschlossener Rahmen empfangen."
+                            },
+                     "04":  {
+                                "name":  "UART-8251-Fehler",
+                                "detail":  "Paritäts-, Framing- oder Receiver-Überlauffehler."
+                            },
+                     "05":  {
+                                "name":  "Syntax- oder Parameterfehler",
+                                "detail":  "Unbekannter Befehl, ungültiger Parameter oder verbotene Konfiguration."
+                            },
+                     "07":  {
+                                "name":  "Ungültige Spur",
+                                "detail":  "Die Spurnummer oder Formatter-Variante wird nicht unterstützt."
+                            },
+                     "08":  {
+                                "name":  "Keine Karte / ungültiger Sensorzustand",
+                                "detail":  "Die Kartenposition erfüllt die Befehlsbedingungen nicht."
+                            },
+                     "09":  {
+                                "name":  "400D-Fehler",
+                                "detail":  "Die Shutter-Prozedur erhielt keine Bestätigung."
+                            },
+                     "10":  {
+                                "name":  "Transport-Timeout",
+                                "detail":  "Die erwartete Sensoränderung ist nicht eingetreten."
+                            },
+                     "11":  {
+                                "name":  "XOR/LRC-Fehler",
+                                "detail":  "Die Prüfsumme des gelesenen Datensatzes ist ungültig."
+                            },
+                     "12":  {
+                                "name":  "Schreib-/Verifikationsfehler",
+                                "detail":  "Geschriebene Daten und Verifikationslesen stimmen nicht überein."
+                            },
+                     "14":  {
+                                "name":  "Paritätsfehler",
+                                "detail":  "Ein Spursymbol hat ungültige Parität."
+                            },
+                     "17":  {
+                                "name":  "Unvollständige Erfassung",
+                                "detail":  "Es wurde kein vollständiger Datenstrom erfasst."
+                            },
+                     "18":  {
+                                "name":  "Ungültige Länge oder Ende",
+                                "detail":  "Es wurde kein gültiges Datensatzende gefunden."
+                            },
+                     "19":  {
+                                "name":  "Keine Synchronisation",
+                                "detail":  "Der Decoder hat kein Synchronisationsmuster gefunden."
+                            },
+                     "20":  {
+                                "name":  "Ungültiger Start / Framing",
+                                "detail":  "Es wurde kein gültiger Datensatzanfang gefunden."
+                            },
+                     "65":  {
+                                "name":  "LCD-Timeout",
+                                "detail":  "Der optionale LCD-Controller hat die erforderliche Leitung nicht geändert."
+                            },
+                     "mmw.sensor.32":  {
+                                           "name":  "Keine Karte"
+                                       },
+                     "mmw.sensor.33":  {
+                                           "name":  "Karte an der Eingangsposition"
+                                       },
+                     "mmw.sensor.34":  {
+                                           "name":  "Karte an der vorderen inneren Position"
+                                       },
+                     "mmw.sensor.35":  {
+                                           "name":  "Karte an der hinteren inneren Position"
+                                       },
+                     "mkw_c11.00":  {
+                                        "name":  "Erfolg"
+                                    },
+                     "mkw_c11.01":  {
+                                        "name":  "Leere Spur"
+                                    },
+                     "mkw_c11.02":  {
+                                        "name":  "Paritätsfehler"
+                                    },
+                     "mkw_c11.03":  {
+                                        "name":  "Lesefehler"
+                                    },
+                     "mkw_c11.04":  {
+                                        "name":  "Kein Startzeichen"
+                                    },
+                     "mkw_c11.05":  {
+                                        "name":  "Kein Stoppzeichen"
+                                    },
+                     "mkw_c11.06":  {
+                                        "name":  "LRC-Fehler"
+                                    },
+                     "mkw_c11.07":  {
+                                        "name":  "Prüffehler"
+                                    },
+                     "mkw_c11.30":  {
+                                        "name":  "Ungültiger Befehl"
+                                    },
+                     "mkw_c11.31":  {
+                                        "name":  "Kartentransportfehler"
+                                    },
+                     "mkw_c11.32":  {
+                                        "name":  "Keine Karte"
+                                    },
+                     "mkw_c11.33":  {
+                                        "name":  "Schreiben außerhalb ISO-Format"
+                                    },
+                     "mkw_c11.36":  {
+                                        "name":  "Ungültiger Kodierer"
+                                    },
+                     "mkw_c11.37":  {
+                                        "name":  "EEPROM-Fehler"
+                                    },
+                     "mkw_c11.38":  {
+                                        "name":  "HiCo nicht verfügbar"
+                                    },
+                     "mkw_c11.41":  {
+                                        "name":  "Shutter geschlossen"
+                                    },
+                     "mkw_c11.42":  {
+                                        "name":  "Shutter geöffnet"
+                                    },
+                     "mkw_c11.44":  {
+                                        "name":  "PIN-Fehler"
+                                    },
+                     "mkw_c11.50":  {
+                                        "name":  "Position S0"
+                                    },
+                     "mkw_c11.51":  {
+                                        "name":  "Position S1"
+                                    },
+                     "mkw_c11.52":  {
+                                        "name":  "Position S2"
+                                    },
+                     "mkw_c11.53":  {
+                                        "name":  "Position S3"
+                                    },
+                     "mkw_c11.54":  {
+                                        "name":  "Position S4"
+                                    },
+                     "mkw_c11.55":  {
+                                        "name":  "Karte im Shutter"
+                                    },
+                     "mkw_c11.99":  {
+                                        "name":  "RDT OK"
+                                    },
+                     "mmw.00":  {
+                                    "name":  "Erfolg"
+                                },
+                     "mmw.01":  {
+                                    "name":  "Leere Spur"
+                                },
+                     "mmw.02":  {
+                                    "name":  "Paritätsfehler"
+                                },
+                     "mmw.03":  {
+                                    "name":  "Lesefehler"
+                                },
+                     "mmw.04":  {
+                                    "name":  "Kein Startzeichen"
+                                },
+                     "mmw.05":  {
+                                    "name":  "Kein Stoppzeichen"
+                                },
+                     "mmw.06":  {
+                                    "name":  "LRC-Fehler"
+                                },
+                     "mmw.07":  {
+                                    "name":  "Prüffehler"
+                                },
+                     "mmw.30":  {
+                                    "name":  "Ungültiger Befehl"
+                                },
+                     "mmw.31":  {
+                                    "name":  "Kartentransportfehler"
+                                },
+                     "mmw.32":  {
+                                    "name":  "Keine Karte"
+                                },
+                     "mmw.33":  {
+                                    "name":  "Schreiben außerhalb ISO-Format"
+                                },
+                     "mmw.36":  {
+                                    "name":  "Ungültiger Kodierer"
+                                },
+                     "mmw.37":  {
+                                    "name":  "EEPROM-Fehler"
+                                },
+                     "mmw.38":  {
+                                    "name":  "HiCo nicht verfügbar"
+                                },
+                     "mmw.41":  {
+                                    "name":  "Shutter geschlossen"
+                                },
+                     "mmw.42":  {
+                                    "name":  "Shutter geöffnet"
+                                },
+                     "mmw.44":  {
+                                    "name":  "PIN-Fehler"
+                                },
+                     "mmw.50":  {
+                                    "name":  "Position S0"
+                                },
+                     "mmw.51":  {
+                                    "name":  "Position S1"
+                                },
+                     "mmw.52":  {
+                                    "name":  "Position S2"
+                                },
+                     "mmw.53":  {
+                                    "name":  "Position S3"
+                                },
+                     "mmw.54":  {
+                                    "name":  "Position S4"
+                                },
+                     "mmw.55":  {
+                                    "name":  "Karte im Shutter"
+                                },
+                     "mmw.99":  {
+                                    "name":  "RDT OK"
+                                }
+                 },
+    "catalog":  {
+                    "categories":  {
+                                       "Podstawowe":  "Basis",
+                                       "Konfiguracja":  "Konfiguration",
+                                       "Sensory":  "Sensoren",
+                                       "Odczyt":  "Lesen",
+                                       "Zapis":  "Schreiben",
+                                       "Transport":  "Transport",
+                                       "Bufory":  "Puffer",
+                                       "Porty":  "Ports",
+                                       "Serwisowe 81":  "Service 81",
+                                       "Identyfikacja":  "Identifikation",
+                                       "Wyjścia":  "Ausgänge",
+                                       "Read":  "Lesen",
+                                       "Configuration":  "Konfiguration",
+                                       "Write":  "Schreiben",
+                                       "Buffers":  "Puffer",
+                                       "Basic":  "Grundlagen",
+                                       "Outputs":  "Ausgänge",
+                                       "Identification":  "Identifikation"
+                                   },
+                    "entries":  {
+                                    "000":  {
+                                                "description":  "Kommunikations-/No-op-Test; keine Kartenbewegung."
+                                            },
+                                    "010":  {
+                                                "description":  "Software-Neustart nach Rückgabe der Antwort."
+                                            },
+                                    "04tX":  {
+                                                 "description":  "Startmarke für Spur t setzen."
+                                             },
+                                    "05tX":  {
+                                                 "description":  "Endmarke für Spur t setzen."
+                                             },
+                                    "06td":  {
+                                                 "description":  "Symbolbreite setzen; der Parameter wird nicht sicher validiert."
+                                             },
+                                    "0701…0709":  {
+                                                      "description":  "Anzahl magnetischer Leseversuche setzen; 0703 ist der Standardwert."
+                                                  },
+                                    "080I":  {
+                                                 "description":  "Standard-ISO-Zeichenmodus."
+                                             },
+                                    "080S":  {
+                                                 "description":  "S-Modus: 8 Bit, ohne abschließende LRC-Prüfung."
+                                             },
+                                    "080B":  {
+                                                 "description":  "RAW-Modus: ein 800-Bit-Puffer als ASCII 0/1 dargestellt."
+                                             },
+                                    "080V":  {
+                                                 "description":  "V-Modus: T1/T3 als Hex-Bytes; T2 bleibt 5-Bit."
+                                             },
+                                    "120":  {
+                                                "description":  "Kartenpräsenz über Sensoren prüfen; ohne Bewegung."
+                                            },
+                                    "18t":  {
+                                                "description":  "Spur t während der MFW-Bewegung lesen.",
+                                                "final_position":  "S4 aktiv"
+                                            },
+                                    "20t":  {
+                                                "description":  "MRV lesen und Prozedur 055B ausführen. Beobachtetes Verhalten: bleibt eine Karte in Startposition, wartet der Befehl auf Entnahme und erneutes Einführen.",
+                                                "final_position":  "innere Endposition; S4 inaktiv"
+                                            },
+                                    "22t":  {
+                                                "description":  "MFW lesen und über Prozedur 05D5 zurückfahren.",
+                                                "final_position":  "S1 aktiv; Startposition"
+                                            },
+                                    "24t":  {
+                                                "description":  "MFW lesen und fahren, bis die Sensoren S0-S4 freigegeben sind.",
+                                                "final_position":  "S0-S4 inaktiv"
+                                            },
+                                    "26t":  {
+                                                "description":  "MRV-Positionierung, dann Lesen entsprechend 24t.",
+                                                "final_position":  "S0-S4 inaktiv"
+                                            },
+                                    "28t":  {
+                                                "description":  "MRV lesen und auf S2 positionieren.",
+                                                "final_position":  "S2 aktiv"
+                                            },
+                                    "52t":  {
+                                                "description":  "Auf Karte warten, MRV lesen und nach S1 zurückkehren.",
+                                                "final_position":  "S1 aktiv"
+                                            },
+                                    "19t\u003cdata\u003e":  {
+                                                                "description":  "Positionieren, MFW schreiben, MRV verifizieren und zurückkehren.",
+                                                                "final_position":  "S1 aktiv"
+                                                            },
+                                    "21t\u003cdata\u003e":  {
+                                                                "description":  "MRV schreiben und MFW verifizieren.",
+                                                                "final_position":  "S4 aktiv"
+                                                            },
+                                    "23t\u003cdata\u003e":  {
+                                                                "description":  "MFW schreiben, MRV verifizieren und zurückkehren.",
+                                                                "final_position":  "S1 aktiv"
+                                                            },
+                                    "25t\u003cdata\u003e":  {
+                                                                "description":  "MFW schreiben, MRV verifizieren und S0-S4 freigeben.",
+                                                                "final_position":  "S0-S4 inaktiv"
+                                                            },
+                                    "27t\u003cdata\u003e":  {
+                                                                "description":  "MRV schreiben, MFW verifizieren und S0-S4 freigeben.",
+                                                                "final_position":  "S0-S4 inaktiv"
+                                                            },
+                                    "53t\u003cdata\u003e":  {
+                                                                "description":  "Auf Karte warten, MFW schreiben, MRV verifizieren und zurückkehren.",
+                                                                "final_position":  "S1 aktiv"
+                                                            },
+                                    "150":  {
+                                                "description":  "MFW-Bewegung bis S0-S4 freigegeben sind.",
+                                                "final_position":  "S0-S4 inaktiv"
+                                            },
+                                    "160":  {
+                                                "description":  "Vollständige MFW-Sequenz über die Sensoren.",
+                                                "final_position":  "S4 inaktiv"
+                                            },
+                                    "170":  {
+                                                "description":  "Bedingte Wiederherstellung / Positionierung abhängig von Sensorzuständen."
+                                            },
+                                    "500":  {
+                                                "description":  "Erfordert freie S0-S2 und wartet auf Aktivierung von S4."
+                                            },
+                                    "700":  {
+                                                "description":  "Prozedur 055B ausführen, wenn eine Karte vorhanden ist.",
+                                                "final_position":  "S4 inaktiv"
+                                            },
+                                    "710":  {
+                                                "description":  "Über Prozedur 05D5 zurückkehren, wenn eine Karte vorhanden ist.",
+                                                "final_position":  "S1 aktiv"
+                                            },
+                                    "730":  {
+                                                "description":  "MRV-Positionierung nach S2 mit kurzem Nachlauf.",
+                                                "final_position":  "S2 aktiv"
+                                            },
+                                    "300":  {
+                                                "description":  "200 Pufferpositionen ab 8502 zurückgeben."
+                                            },
+                                    "310":  {
+                                                "description":  "200 Pufferpositionen ab 85CA zurückgeben."
+                                            },
+                                    "320":  {
+                                                "description":  "200 Pufferpositionen ab 8692 zurückgeben."
+                                            },
+                                    "330":  {
+                                                "description":  "200 Pufferpositionen ab 875A zurückgeben."
+                                            },
+                                    "340":  {
+                                                "description":  "Letzten 800-Positions-Puffer zurückgeben; kein neuer Lesevorgang und keine Bewegung."
+                                            },
+                                    "400D":  {
+                                                 "description":  "Shutter-Prozedur; fehlende Bestätigung liefert Status 09."
+                                             },
+                                    "400E":  {
+                                                 "description":  "Interne Flagge 8861=FF setzen."
+                                             },
+                                    "400M":  {
+                                                 "description":  "8827=C0 setzen."
+                                             },
+                                    "400N":  {
+                                                 "description":  "8827=80 setzen."
+                                             },
+                                    "41000…41099":  {
+                                                        "description":  "Timer deaktivieren oder setzen; Einheit ist nicht bestätigt."
+                                                    },
+                                    "620":  {
+                                                "description":  "Port 80h als acht 0/1-Zeichen lesen."
+                                            },
+                                    "630xxxxxxxx":  {
+                                                        "description":  "Acht Bits nach Port 60h schreiben und 40.7 pulsen."
+                                                    },
+                                    "650\u003ctekst\u003e":  {
+                                                                 "description":  "Text an den optionalen LCD-Controller senden."
+                                                             },
+                                    "680000":  {
+                                                   "description":  "Testvariante 68; keine Zustandsänderung."
+                                               },
+                                    "680001":  {
+                                                   "description":  "Ausgang E01C löschen."
+                                               },
+                                    "680030":  {
+                                                   "description":  "Eingang E01D lesen."
+                                               },
+                                    "680040xxxxxxxx":  {
+                                                           "description":  "Acht Bits nach E01C schreiben."
+                                                       },
+                                    "810020":  {
+                                                   "description":  "Komplexe Transport- und Wiederherstellungsprozedur."
+                                               },
+                                    "810022":  {
+                                                   "description":  "MFW durch die Sensoren, Puls 40.7 und Bewegung nach S4."
+                                               },
+                                    "810024":  {
+                                                   "description":  "Handshake/Wiederherstellung 60.2/80.4; gefährlicher Fehlerpfad."
+                                               },
+                                    "810026":  {
+                                                   "description":  "Port 60.2=1 setzen und warten."
+                                               },
+                                    "810028":  {
+                                                   "description":  "60.2 setzen und vollständige Rückkehr 05D5 ausführen."
+                                               },
+                                    "810030":  {
+                                                   "description":  "60.2 setzen und MFW-Sensoren bedingt freigeben."
+                                               },
+                                    "970":  {
+                                                "description":  "Versions-/Selbsttestinformation."
+                                            },
+                                    "980":  {
+                                                "description":  "Version des optionalen LCD-Controllers."
+                                            },
+                                    "990":  {
+                                                "description":  "Version des Haupt-Controllers."
+                                            },
+                                    "aa":  {
+                                               "description":  "Karte einziehen, ISO-Spur 2 lesen und vorne auswerfen.",
+                                               "final_position":  "Karte vorne"
+                                           },
+                                    "ab":  {
+                                               "description":  "Karte einziehen, ISO-Spur 2 lesen und hinten auswerfen.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "ea":  {
+                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer von Spur 2 lesen und vorne auswerfen.",
+                                               "final_position":  "Karte vorne"
+                                           },
+                                    "eb":  {
+                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer von Spur 2 lesen und hinten auswerfen.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "ec":  {
+                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer von Spur 2 lesen und an der hinteren inneren Position belassen.",
+                                               "final_position":  "hintere innere Position"
+                                           },
+                                    "ed":  {
+                                               "description":  "Karte von der hinteren inneren Position an die vordere innere Position bewegen, ohne sie auszuwerfen.",
+                                               "final_position":  "vordere innere Position"
+                                           },
+                                    "ee":  {
+                                               "description":  "Karte von der hinteren inneren Position an die Eingangsposition bewegen; die Karte bleibt zum erneuten Einziehen bereit.",
+                                               "final_position":  "Eingangsposition"
+                                           },
+                                    "ef":  {
+                                               "description":  "Die Karte von der hinteren inneren Position zum Beginn des Mechanismus zurückführen und hinten auswerfen; von der vorderen inneren Position erfolgt keine Bewegung.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "eg":  {
+                                               "description":  "Karte von der hinteren inneren Position an die vordere innere Position bewegen, den 200-Bit-RAW-Puffer von Spur 2 lesen und zur hinteren inneren Position zurückführen.",
+                                               "final_position":  "hintere innere Position"
+                                           },
+                                    "eh":  {
+                                               "description":  "Karte von der vorderen inneren Position an die hintere innere Position bewegen, den 200-Bit-RAW-Puffer von Spur 2 lesen und zur vorderen inneren Position zurückführen.",
+                                               "final_position":  "vordere innere Position"
+                                           },
+                                    "ba\u003cdata\u003e":  {
+                                                               "description":  "Karte einziehen, ISO-Datensatz auf Spur 2 schreiben, prüfen und vorne auswerfen.",
+                                                               "final_position":  "Karte vorne"
+                                                           },
+                                    "bb\u003cdata\u003e":  {
+                                                               "description":  "Karte einziehen, ISO-Datensatz auf Spur 2 schreiben, prüfen und hinten auswerfen.",
+                                                               "final_position":  "Karte hinten"
+                                                           },
+                                    "bc\u003cdata\u003e":  {
+                                                               "description":  "Von der Eingangsposition einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte an die vordere innere Position bewegen.",
+                                                               "final_position":  "vordere innere Position"
+                                                           },
+                                    "bd\u003cdata\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte an die Eingangsposition bewegen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "be\u003cdata\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte an die Eingangsposition bewegen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "bf\u003cdata\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte aus dem Leser auswerfen.",
+                                                               "final_position":  "Karte außerhalb des Lesers"
+                                                           },
+                                    "bg\u003cdata\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte dort belassen.",
+                                                               "final_position":  "vordere innere Position"
+                                                           },
+                                    "bh\u003cdata\u003e":  {
+                                                               "description":  "Von der Eingangsposition einen ISO-Datensatz auf Spur 2 schreiben, prüfen und die Karte dort belassen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "fa\u003cbits\u003e":  {
+                                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und vorne auswerfen.",
+                                                               "final_position":  "Karte vorne"
+                                                           },
+                                    "fb\u003cbits\u003e":  {
+                                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und hinten auswerfen.",
+                                                               "final_position":  "Karte hinten"
+                                                           },
+                                    "fc\u003cbits\u003e":  {
+                                                               "description":  "Von der Eingangsposition den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte an die vordere innere Position bewegen.",
+                                                               "final_position":  "vordere innere Position"
+                                                           },
+                                    "fd\u003cbits\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte an die Eingangsposition bewegen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "fe\u003cbits\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte an die Eingangsposition bewegen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "ff\u003cbits\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte auch nach einem Prüffehler auswerfen.",
+                                                               "final_position":  "Karte außerhalb des Lesers"
+                                                           },
+                                    "fg\u003cbits\u003e":  {
+                                                               "description":  "Von der vorderen inneren Position den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte dort belassen.",
+                                                               "final_position":  "vordere innere Position"
+                                                           },
+                                    "fh\u003cbits\u003e":  {
+                                                               "description":  "Von der Eingangsposition den 200-Bit-RAW-Puffer auf Spur 2 schreiben, prüfen und die Karte dort belassen.",
+                                                               "final_position":  "Eingangsposition"
+                                                           },
+                                    "z":  {
+                                              "description":  "Leseridentifikation auslesen."
+                                          },
+                                    "t":  {
+                                              "description":  "Leserkonfiguration auslesen."
+                                          },
+                                    "x":  {
+                                              "description":  "Leser zurücksetzen."
+                                          },
+                                    "p":  {
+                                              "description":  "Zustand der Kartenpositionssensoren auslesen."
+                                          },
+                                    "jss":  {
+                                                "description":  "ISO-Format auswählen."
+                                            },
+                                    "jsn":  {
+                                                "description":  "SIPASS-Format auswählen."
+                                            },
+                                    "jhs":  {
+                                                "description":  "LoCo-Schreiben auswählen."
+                                            },
+                                    "jhn":  {
+                                                "description":  "HiCo-Schreiben auswählen."
+                                            },
+                                    "aca":  {
+                                                "description":  "Karte einziehen, Spur 1 lesen und vorne auswerfen.",
+                                                "final_position":  "Karte vorne"
+                                            },
+                                    "acb":  {
+                                                "description":  "Karte einziehen, Spur 2 lesen und vorne auswerfen.",
+                                                "final_position":  "Karte vorne"
+                                            },
+                                    "acd":  {
+                                                "description":  "Karte einziehen, Spur 3 lesen und vorne auswerfen.",
+                                                "final_position":  "Karte vorne"
+                                            },
+                                    "acg":  {
+                                                "description":  "Karte einziehen, alle Spuren lesen und vorne auswerfen.",
+                                                "final_position":  "Karte vorne"
+                                            },
+                                    "aka":  {
+                                                "description":  "Karte einziehen, Spur 1 lesen und hinten auswerfen.",
+                                                "final_position":  "Karte hinten"
+                                            },
+                                    "akb":  {
+                                                "description":  "Karte einziehen, Spur 2 lesen und hinten auswerfen.",
+                                                "final_position":  "Karte hinten"
+                                            },
+                                    "akd":  {
+                                                "description":  "Karte einziehen, Spur 3 lesen und hinten auswerfen.",
+                                                "final_position":  "Karte hinten"
+                                            },
+                                    "akg":  {
+                                                "description":  "Karte einziehen, alle Spuren lesen und hinten auswerfen.",
+                                                "final_position":  "Karte hinten"
+                                            },
+                                    "kaa":  {
+                                                "description":  "Puffer der gelesenen Spur 1 zurückgeben."
+                                            },
+                                    "kab":  {
+                                                "description":  "Puffer der gelesenen Spur 2 zurückgeben."
+                                            },
+                                    "kad":  {
+                                                "description":  "Puffer der gelesenen Spur 3 zurückgeben."
+                                            },
+                                    "dc":  {
+                                               "description":  "Karte vorne auswerfen.",
+                                               "final_position":  "Karte vorne"
+                                           },
+                                    "dk":  {
+                                               "description":  "Karte hinten auswerfen.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "haa\u003cdata\u003e":  {
+                                                                "description":  "Daten für Spur 1 in den Schreibpuffer laden."
+                                                            },
+                                    "hab\u003cdata\u003e":  {
+                                                                "description":  "Daten für Spur 2 in den Schreibpuffer laden."
+                                                            },
+                                    "had\u003cdata\u003e":  {
+                                                                "description":  "Daten für Spur 3 in den Schreibpuffer laden."
+                                                            },
+                                    "bca\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 1 schreiben und vorne auswerfen.",
+                                                                "final_position":  "Karte vorne"
+                                                            },
+                                    "bcb\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 2 schreiben und vorne auswerfen.",
+                                                                "final_position":  "Karte vorne"
+                                                            },
+                                    "bcd\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 3 schreiben und vorne auswerfen.",
+                                                                "final_position":  "Karte vorne"
+                                                            },
+                                    "bka\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 1 schreiben und hinten auswerfen.",
+                                                                "final_position":  "Karte hinten"
+                                                            },
+                                    "bkb\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 2 schreiben und hinten auswerfen.",
+                                                                "final_position":  "Karte hinten"
+                                                            },
+                                    "bkd\u003cdata\u003e":  {
+                                                                "description":  "Karte einziehen, Spur 3 schreiben und hinten auswerfen.",
+                                                                "final_position":  "Karte hinten"
+                                                            },
+                                    "bcg":  {
+                                                "description":  "Alle zuvor geladenen Puffer schreiben und die Karte vorne auswerfen.",
+                                                "final_position":  "Karte vorne"
+                                            },
+                                    "bkg":  {
+                                                "description":  "Alle zuvor geladenen Puffer schreiben und die Karte hinten auswerfen.",
+                                                "final_position":  "Karte hinten"
+                                            },
+                                    "y\u003cconfig\u003e":  {
+                                                                "description":  "Den vollständigen MMW-Konfigurationsblock schreiben. Zuerst mit t auslesen; y ohne Daten schreibt einen leeren Block."
+                                                            },
+                                    "gan":  {
+                                                "description":  "Ausgang a einschalten."
+                                            },
+                                    "gas":  {
+                                                "description":  "Ausgang a ausschalten."
+                                            },
+                                    "gbn":  {
+                                                "description":  "Ausgang b einschalten."
+                                            },
+                                    "gbs":  {
+                                                "description":  "Ausgang b ausschalten."
+                                            },
+                                    "gcn":  {
+                                                "description":  "Ausgang c einschalten."
+                                            },
+                                    "gcs":  {
+                                                "description":  "Ausgang c ausschalten."
+                                            },
+                                    "gdn":  {
+                                                "description":  "Ausgang d einschalten."
+                                            },
+                                    "gds":  {
+                                                "description":  "Ausgang d ausschalten."
+                                            },
+                                    "gen":  {
+                                                "description":  "Ausgang e einschalten."
+                                            },
+                                    "ges":  {
+                                                "description":  "Ausgang e ausschalten."
+                                            },
+                                    "gfn":  {
+                                                "description":  "Ausgang f einschalten."
+                                            },
+                                    "gfs":  {
+                                                "description":  "Ausgang f ausschalten."
+                                            },
+                                    "ggn":  {
+                                                "description":  "Ausgang g einschalten."
+                                            },
+                                    "ggs":  {
+                                                "description":  "Ausgang g ausschalten."
+                                            },
+                                    "ac":  {
+                                               "description":  "Karte einziehen, ISO-Spur 2 lesen und an der hinteren inneren Position belassen.",
+                                               "final_position":  "hintere innere Position"
+                                           },
+                                    "ad":  {
+                                               "description":  "Karte von der hinteren zur vorderen inneren Position bewegen, ohne sie auszuwerfen.",
+                                               "final_position":  "Karte im Leser"
+                                           },
+                                    "ae":  {
+                                               "description":  "Karte von der hinteren inneren Position an die Eingangsposition bewegen, bereit zum erneuten Einziehen.",
+                                               "final_position":  "Eingangsposition"
+                                           },
+                                    "af":  {
+                                               "description":  "Karte von der hinteren inneren Position zurückführen und hinten auswerfen.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "ag":  {
+                                               "description":  "ISO-Spur 2 von der hinteren inneren Position lesen und die Karte dort belassen.",
+                                               "final_position":  "hintere innere Position"
+                                           },
+                                    "ah":  {
+                                               "description":  "ISO-Spur 2 von der vorderen inneren Position lesen und die Karte dort belassen.",
+                                               "final_position":  "vordere innere Position"
+                                           },
+                                    "da":  {
+                                               "description":  "Karte vorne auswerfen.",
+                                               "final_position":  "Karte vorne"
+                                           },
+                                    "db":  {
+                                               "description":  "Karte hinten auswerfen.",
+                                               "final_position":  "Karte hinten"
+                                           },
+                                    "ja\u003cdata\u003e":  {
+                                                               "description":  "Karte einziehen, ISO-Spur 2 ohne Prüfung schreiben und vorne auswerfen.",
+                                                               "final_position":  "Karte vorne"
+                                                           },
+                                    "jb\u003cdata\u003e":  {
+                                                               "description":  "Karte einziehen, ISO-Spur 2 ohne Prüfung schreiben und hinten auswerfen.",
+                                                               "final_position":  "Karte hinten"
+                                                           },
+                                    "na\u003cbits\u003e":  {
+                                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer ohne Prüfung auf Spur 2 schreiben und vorne auswerfen.",
+                                                               "final_position":  "Karte vorne"
+                                                           },
+                                    "nb\u003cbits\u003e":  {
+                                                               "description":  "Karte einziehen, den 200-Bit-RAW-Puffer ohne Prüfung auf Spur 2 schreiben und hinten auswerfen.",
+                                                               "final_position":  "Karte hinten"
+                                                           }
+                                }
+                }
+}
